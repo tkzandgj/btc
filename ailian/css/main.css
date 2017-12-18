@@ -18,12 +18,12 @@
 .logo{display: block;background: url(../images/index_18.png) no-repeat;width: 100px;height: 68px;margin-top: 6px;}
 .menu_rt{line-height: 30px;margin-top: 24px;}
 .menu_main a{display: inline-block;padding: 0px 20px;margin: 0px 5px;border: 1px solid #001c45;border-radius: 3px;font-size: 18px;color: #fff;}
-.menu_main a:hover{color: #ff5c52;border: 1px solid #fff;}
-.menu_main .ahover{color: #ff5c52;border: 1px solid #fff;}
+.menu_main a:hover{color: #ff5c52;}
+.menu_main .ahover{color: #ff5c52;}
 .zhuce span{color: #0e69d2;margin-right: 20px;}
 .zhuce{font-size: 14px;margin-left: 20px;}
 .zhuce a{color: #fff;display: inline-block;padding: 0px 20px;border: 1px solid #001c45;border-radius: 3px;}
-.zhuce a:hover{border: 1px solid #fff;color: #ff5c52;}
+.zhuce a:hover{color: #ff5c52;}
 .banner img{width: 100%;vertical-align: middle;}
 .index_one{background: url(../images/index2.jpg) no-repeat center;background-size: cover;}
 .index_one_main{padding: 42px 150px;width: 900px;}
@@ -31,7 +31,7 @@
 .index_one_rt{font-size: 14px;color: #333333;text-indent: 2em;line-height: 32px;width: 640px;padding-top: 20px;}
 .index_news{padding: 25px 0px;font-size: 16px;line-height: 32px;}
 .index_news_ico{background: url(../images/index_30.png) no-repeat 24px center;padding-left: 60px;color: #eb5c38;}
-.index_news_rt{width: 1040px;height: 32px;overflow: hidden;margin-left: 20px;}
+.index_news_rt{width: 1040px;height: 160px;overflow: hidden;margin-left: 20px;}
 .index_news_rt li{height: 32px;overflow: hidden;}
 .index_two{padding: 40px 0px;background: #38a3f5;}
 .index_two_lf{width: 780px;border: 5px solid  rgba(255,255,255,0.3);border-radius: 3px;}

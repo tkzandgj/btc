@@ -1,0 +1,18 @@
+.str_wrap {
+    overflow: hidden;
+       width: 80%;
+    font-size: 12px;
+    line-height: 16px;
+    position: relative;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+    white-space: nowrap;
+}
+.index_news_ico{
+    background: url(../images/index_30.png) no-repeat 24px center;
+    padding-left: 0; 
+    color: #eb5c38;
+    width: 20%;
+    text-indent: 80px;
+}
