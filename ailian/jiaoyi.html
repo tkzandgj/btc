@@ -1,0 +1,1367 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/init.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<script type="text/javascript" src="js/jquery-1.7.2.js" ></script>
+	</head>
+	<body style="background: #f9f9f9;">
+		<div class="head clearfix">
+			<div class="left head_lf">
+				BTC: ¥<span class="num_down">7,861</span>&nbsp;|&nbsp;ETH: ¥<span class="num_down">308.1</span>&nbsp;|&nbsp;ETC: ¥<span class="num_up">14.1</span>
+			</div>
+			<div class="right language clearfix">
+				<span class="language_t right clearfix">
+					<img src="images/language_03.png" class="left" />
+					<em class="left"></em>
+				</span>
+				<div class="language_yin">
+					<p>
+						<a href="#">
+							<img src="images/language_03.png" />
+							<span>China</span>
+						</a>
+					</p>
+					<p>
+						<a href="#">
+							<img src="images/languages3_07.png" />
+							<span>English</span>
+						</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	    <div class="menu">
+	    	<div class="jz clearfix">
+	    		<a href="index.html" class="left logo"></a>
+	    		<div class="right menu_rt clearfix">
+	    			<div class="left menu_main">
+	    				<a href="index.html" class="ahover">首页</a>
+	    				<a href="jiaoyi.html">交易中心</a>
+	    				<a href="zhongchou.html">众筹中心 </a>
+	    				<a href="caiwu.html">财务中心</a>
+	    			</div>
+	    			<div class="left zhuce">
+	    				<span>|</span>
+	    				<a href="#">登录 </a>
+	    				<a href="#">注册</a>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>
+	    <div class="jiaoyi">
+	    	<div class="jiaoyi_one">
+	    		<div class="jiaoyi_one_main clearfix">
+	    			<span class="left jiaoyi_one_ico">最新公告：</span>
+	    			<div class="jiaoyi_one_rt" id="wrap">
+	    				<ul id="box1">
+	    					<li>
+	    						<a href="#">
+	    							<span>[2017-03-24]</span>云联币认购活动圆满结束和开盘时间公告    
+	    						</a>
+	    					</li>
+	    					<li>
+	    						<a href="#">
+	    							<span>[2017-03-25]</span>云联币认购活动圆满结束和开盘时间公告    
+	    						</a>
+	    					</li>
+	    					<li>
+	    						<a href="#">
+	    							<span>[2017-03-26]</span>云联币认购活动圆满结束和开盘时间公告    
+	    						</a>
+	    					</li>
+	    				</ul>
+	    			    <ul id="box2"></ul>
+	    			</div>
+	    		</div>
+	    	    <em class="jycha"></em>
+	    	</div>
+	    	<div class="clearfix jy_b">
+	    		<div class="jy_lf left">
+	    			<div class="jy_lf_one">
+	    				<div class="clearfix jy_lf_one_main">
+	    					<span class="left">币种搜索：</span>
+	    					<a href="#" class="right ssbtn btn_red">
+	    						搜索<em></em>
+	    					</a>
+	    					<div class="jy_lf_one_in">
+	    					<input type="text" />
+	    					</div>
+	    					
+	    				</div>
+	    			</div>
+	    		    <div class="jy_lf_two">
+	    		    	<div class="jy_lf_two_tl clearfix">
+	    		    		<a href="javascript:;" class="ahover">人民币区</a>
+	    		    		<a href="javascript:;">BTC区</a>
+	    		    	</div>
+	    		    	<div class="jy_lf_two_b">
+	    		    		<div class="jy_lf_two_b_con active">
+	    		    			<div class="clearfix jy_lf_two_b_tl">
+	    		    				<div class="left bizhong">
+	    		    					币种
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					价格
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					 24H涨跌
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_ul">
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			</div>
+	    		    		</div>
+	    		    	    <div class="jy_lf_two_b_con">
+	    		    			<div class="clearfix jy_lf_two_b_tl">
+	    		    				<div class="left bizhong">
+	    		    					币种
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					价格
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					 24H涨跌
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_ul">
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					 AMP	
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					 AMP	
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					 AMP	
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			<div class="jy_lf_two_b_li clearfix">
+	    		    				<div class="left bizhong">
+	    		    					ETH
+	    		    				</div>
+	    		    				<div class="left jiage">
+	    		    					353.1504708	
+	    		    				</div>
+	    		    				<div class="left diezhang">
+	    		    					5.44%
+	    		    				</div>
+	    		    			</div>
+	    		    			</div>
+	    		    		</div>
+	    		    	</div>
+	    		    </div>
+	    		</div>
+	    	    <div class="left jy_middle">
+	    	    	<div class="jy_middle_one">
+	    	    		<div class="clearfix">
+	    	    			<div class="left bite">
+	    	    				<p>比特币 对 人民币</p>
+	    	    				BTC / CNY
+	    	    			</div>
+	    	    			<div class="right jy_middle_one_rt">
+	    	    					 24H成交量 
+	    	    					<p>1296.5827</p>
+	    	    				</div>
+	    	    				<div class="right jy_middle_one_rt">
+	    	    					最高价 / 最低价  
+	    	    					<p>8155.00/7001.00</p>
+	    	    				</div>
+	    	    				<div class="right jy_middle_one_rt">
+	    	    					买一价 /卖一价
+	    	    					<p>7078.00/7080.00</p>
+	    	    				</div>
+	    	    				<div class="right jy_middle_one_rt">
+	    	    					最新价 
+	    	    					<p><span class="color_red">7080.00</span></p>
+	    	    				</div>
+	    	    				
+	    	    				
+	    	    				
+	    	    		</div>
+	    	    	    <div class="biaoge">
+	    	    	    	<img src="images/jiaoyi_23.png" style="width: 100%;height: 208px;" />
+	    	    	    </div>
+	    	    	</div>
+	    	        <div class="jy_middle_two clearfix">
+	    	        	<div class="jy_middle_two_main left">
+	    	        		<div class="jy_middle_two_main_con">
+	    	        			<div class="jy_middle_two_main_con_tl clearfix">
+	    	        				<div class="left">
+	    	        					<img src="images/jiaoyi_27.png" />
+	    	        					买
+	    	        				</div>
+	    	        				<span class="right">可用人民币：2050.00</span>
+	    	        			</div>
+	    	        			<div class="clearfix jy_middle_two_gp">
+	    	        				<div class="left jy_middle_two_gp_name">数量：</div>
+	    	        				<input type="text" class="right" />
+	    	        				<span class="danwei">ETH</span>
+	    	        			</div>
+	    	        			<div class="clearfix jy_middle_two_gp">
+	    	        				<div class="left jy_middle_two_gp_name clearfix">
+	    	        					<span class="left">买入比例：</span>
+	    	        					<span class="right baifenbi">22.33%</span>
+	    	        				</div>
+	    	        				<div class="jy_middle_jd right">
+	    	        					<div class="jindu_main">
+	    	        						<div class="jindu_main_con" style="width: 23%;"></div>
+	    	        					</div>
+	    	        				</div>
+	    	        			</div>
+	    	        			<div class="clearfix jy_middle_two_gp">
+	    	        				<div class="left jy_middle_two_gp_name">价格：</div>
+	    	        				<input type="text" class="right" />
+	    	        				<span class="danwei">BTC</span>
+	    	        			</div>
+	    	        			<div class="clearfix jy_middle_two_gp">
+	    	        				<div class="left jy_middle_two_gp_name">总计：</div>
+	    	        				<input type="text" class="right" />
+	    	        				<span class="danwei">BTC</span>
+	    	        			</div>
+	    	        			<div class="clearfix jy_middle_two_gp">
+	    	        				<div class="left jy_middle_two_gp_name">手续费（0.2%）：</div>
+	    	        				<input type="text" class="right" />
+	    	        				<span class="danwei">BTC</span>
+	    	        			</div>
+	    	        			<div class="clearfix jy_middle_two_gp">
+	    	        				<div class="left jy_middle_two_gp_name">总计+手续费：</div>
+	    	        				<input type="text" class="right" />
+	    	        				<span class="danwei">BTC</span>
+	    	        			</div>
+	    	        			<div class="clearfix jy_middle_two_gp">
+	    	        				<div class="left jy_middle_two_gp_name">交易密码</div>
+	    	        				<input type="text" class="right" />
+	    	        			</div>
+	    	        			<div class="clearfix jy_middle_two_gp mai">
+	    	        				<a href="#" class="left btn_hui">高级设置</a>
+	    	        				<a href="#" class="right btn_green">买</a>
+	    	        			</div>
+	    	        		</div>
+	    	        	</div>
+	    	            <div class="jy_middle_two_main left">
+	    	        		<div class="jy_middle_two_main_con" style="border: none;">
+	    	        			<div class="jy_middle_two_main_con_tl clearfix">
+	    	        				<div class="left">
+	    	        					<img src="images/jiaoyi_30.png" />
+	    	        					卖
+	    	        				</div>
+	    	        				<span class="right">可用比特币：2050.00</span>
+	    	        			</div>
+	    	        			<div class="clearfix jy_middle_two_gp">
+	    	        				<div class="left jy_middle_two_gp_name">数量：</div>
+	    	        				<input type="text" class="right" />
+	    	        				<span class="danwei">ETH</span>
+	    	        			</div>
+	    	        			<div class="clearfix jy_middle_two_gp">
+	    	        				<div class="left jy_middle_two_gp_name clearfix">
+	    	        					<span class="left">卖出比例：</span>
+	    	        					<span class="right baifenbi">22.33%</span>
+	    	        				</div>
+	    	        				<div class="jy_middle_jd right">
+	    	        					<div class="jindu_main">
+	    	        						<div class="jindu_main_con" style="width: 23%;"></div>
+	    	        					</div>
+	    	        				</div>
+	    	        			</div>
+	    	        			<div class="clearfix jy_middle_two_gp">
+	    	        				<div class="left jy_middle_two_gp_name">价格：</div>
+	    	        				<input type="text" class="right" />
+	    	        				<span class="danwei">BTC</span>
+	    	        			</div>
+	    	        			<div class="clearfix jy_middle_two_gp">
+	    	        				<div class="left jy_middle_two_gp_name">总计：</div>
+	    	        				<input type="text" class="right" />
+	    	        				<span class="danwei">BTC</span>
+	    	        			</div>
+	    	        			<div class="clearfix jy_middle_two_gp">
+	    	        				<div class="left jy_middle_two_gp_name">手续费（0.2%）：</div>
+	    	        				<input type="text" class="right" />
+	    	        				<span class="danwei">BTC</span>
+	    	        			</div>
+	    	        			<div class="clearfix jy_middle_two_gp">
+	    	        				<div class="left jy_middle_two_gp_name">总计+手续费：</div>
+	    	        				<input type="text" class="right" />
+	    	        				<span class="danwei">BTC</span>
+	    	        			</div>
+	    	        			<div class="clearfix jy_middle_two_gp">
+	    	        				<div class="left jy_middle_two_gp_name">交易密码</div>
+	    	        				<input type="text" class="right" />
+	    	        			</div>
+	    	        			<div class="clearfix jy_middle_two_gp mai">
+	    	        				<a href="#" class="left btn_hui">高级设置</a>
+	    	        				<a href="#" class="right btn_red">卖</a>
+	    	        			</div>
+	    	        		</div>
+	    	        	</div>
+	    	        </div>
+	    	        <div class="jy_middle_three clearfix">
+	    	        	<div class="jy_middle_three_main left">
+	    	        		<div class="jy_middle_two_main_con_tl clearfix">
+	    	        				<div class="left">
+	    	        					<img src="images/jiaoyi_30.png" />
+	    	        					卖单
+	    	        				</div>
+	    	        		
+	    	        		</div>
+	    	        		<ul class="clearfix mai_ul mai_tl">
+	    	        			<li class="left mai_ul_time">
+	    	        				时间 
+	    	        			</li>
+	    	        			<li>
+	    	        				  单价                                 
+	    	        			</li>
+	    	        			<li>
+	    	        				数量   
+	    	        			</li>
+	    	        			<li>
+	    	        				交易金额 
+	    	        			</li>
+	    	        		</ul>
+	    	        		<div class="mai_ul_b">
+	    	        			<ul class="clearfix mai_ul">
+	    	        			<li class="left mai_ul_time">
+	    	        				03-22&nbsp;16:53:17
+	    	        			</li>
+	    	        			<li>
+	    	        				  <span class="color_red">  0.003113</span>                                 
+	    	        			</li>
+	    	        			<li>
+	    	        				 100  
+	    	        			</li>
+	    	        			<li>
+	    	        				20000.00
+	    	        			</li>
+	    	        		   </ul>
+	    	        		   <ul class="clearfix mai_ul">
+	    	        			<li class="left mai_ul_time">
+	    	        				03-22&nbsp;16:53:17
+	    	        			</li>
+	    	        			<li>
+	    	        				  <span class="color_red">  0.003113</span>                                 
+	    	        			</li>
+	    	        			<li>
+	    	        				 100  
+	    	        			</li>
+	    	        			<li>
+	    	        				20000.00
+	    	        			</li>
+	    	        		   </ul>
+	    	        		   <ul class="clearfix mai_ul">
+	    	        			<li class="left mai_ul_time">
+	    	        				03-22&nbsp;16:53:17
+	    	        			</li>
+	    	        			<li>
+	    	        				  <span class="color_red">  0.003113</span>                                 
+	    	        			</li>
+	    	        			<li>
+	    	        				 100  
+	    	        			</li>
+	    	        			<li>
+	    	        				20000.00
+	    	        			</li>
+	    	        		   </ul>
+	    	        		   <ul class="clearfix mai_ul">
+	    	        			<li class="left mai_ul_time">
+	    	        				03-22&nbsp;16:53:17
+	    	        			</li>
+	    	        			<li>
+	    	        				  <span class="color_red">  0.003113</span>                                 
+	    	        			</li>
+	    	        			<li>
+	    	        				 100  
+	    	        			</li>
+	    	        			<li>
+	    	        				20000.00
+	    	        			</li>
+	    	        		   </ul>
+	    	        		   <ul class="clearfix mai_ul">
+	    	        			<li class="left mai_ul_time">
+	    	        				03-22&nbsp;16:53:17
+	    	        			</li>
+	    	        			<li>
+	    	        				  <span class="color_red">  0.003113</span>                                 
+	    	        			</li>
+	    	        			<li>
+	    	        				 100  
+	    	        			</li>
+	    	        			<li>
+	    	        				20000.00
+	    	        			</li>
+	    	        		   </ul>
+	    	        		    <ul class="clearfix mai_ul">
+	    	        			<li class="left mai_ul_time">
+	    	        				03-22&nbsp;16:53:17
+	    	        			</li>
+	    	        			<li>
+	    	        				  <span class="color_red">  0.003113</span>                                 
+	    	        			</li>
+	    	        			<li>
+	    	        				 100  
+	    	        			</li>
+	    	        			<li>
+	    	        				20000.00
+	    	        			</li>
+	    	        		   </ul>
+	    	        		   <ul class="clearfix mai_ul">
+	    	        			<li class="left mai_ul_time">
+	    	        				03-22&nbsp;16:53:17
+	    	        			</li>
+	    	        			<li>
+	    	        				  <span class="color_red">  0.003113</span>                                 
+	    	        			</li>
+	    	        			<li>
+	    	        				 100  
+	    	        			</li>
+	    	        			<li>
+	    	        				20000.00
+	    	        			</li>
+	    	        		   </ul>
+	    	        		   <ul class="clearfix mai_ul">
+	    	        			<li class="left mai_ul_time">
+	    	        				03-22&nbsp;16:53:17
+	    	        			</li>
+	    	        			<li>
+	    	        				  <span class="color_red">  0.003113</span>                                 
+	    	        			</li>
+	    	        			<li>
+	    	        				 100  
+	    	        			</li>
+	    	        			<li>
+	    	        				20000.00
+	    	        			</li>
+	    	        		   </ul>
+	    	        		   <ul class="clearfix mai_ul">
+	    	        			<li class="left mai_ul_time">
+	    	        				03-22&nbsp;16:53:17
+	    	        			</li>
+	    	        			<li>
+	    	        				  <span class="color_red">  0.003113</span>                                 
+	    	        			</li>
+	    	        			<li>
+	    	        				 100  
+	    	        			</li>
+	    	        			<li>
+	    	        				20000.00
+	    	        			</li>
+	    	        		   </ul>
+	    	        		</div>
+	    	        	</div>
+	    	            <div class="jy_middle_three_main right">
+	    	        		<div class="jy_middle_two_main_con_tl clearfix">
+	    	        				<div class="left">
+	    	        					<img src="images/jiaoyi_27.png" />
+	    	        					买单
+	    	        				</div>
+	    	        		
+	    	        		</div>
+	    	        		<ul class="clearfix mai_ul buy_tl">
+	    	        			<li class="left mai_ul_time">
+	    	        				时间 
+	    	        			</li>
+	    	        			<li>
+	    	        				  单价                                 
+	    	        			</li>
+	    	        			<li>
+	    	        				数量   
+	    	        			</li>
+	    	        			<li>
+	    	        				交易金额 
+	    	        			</li>
+	    	        		</ul>
+	    	        		<div class="mai_ul_b">
+	    	        			<ul class="clearfix mai_ul">
+	    	        			<li class="left mai_ul_time">
+	    	        				03-22&nbsp;16:53:17
+	    	        			</li>
+	    	        			<li>
+	    	        				  <span class="color_red">  0.003113</span>                                 
+	    	        			</li>
+	    	        			<li>
+	    	        				 100  
+	    	        			</li>
+	    	        			<li>
+	    	        				20000.00
+	    	        			</li>
+	    	        		   </ul>
+	    	        		   <ul class="clearfix mai_ul">
+	    	        			<li class="left mai_ul_time">
+	    	        				03-22&nbsp;16:53:17
+	    	        			</li>
+	    	        			<li>
+	    	        				  <span class="color_red">  0.003113</span>                                 
+	    	        			</li>
+	    	        			<li>
+	    	        				 100  
+	    	        			</li>
+	    	        			<li>
+	    	        				20000.00
+	    	        			</li>
+	    	        		   </ul>
+	    	        		   <ul class="clearfix mai_ul">
+	    	        			<li class="left mai_ul_time">
+	    	        				03-22&nbsp;16:53:17
+	    	        			</li>
+	    	        			<li>
+	    	        				  <span class="color_red">  0.003113</span>                                 
+	    	        			</li>
+	    	        			<li>
+	    	        				 100  
+	    	        			</li>
+	    	        			<li>
+	    	        				20000.00
+	    	        			</li>
+	    	        		   </ul>
+	    	        		   <ul class="clearfix mai_ul">
+	    	        			<li class="left mai_ul_time">
+	    	        				03-22&nbsp;16:53:17
+	    	        			</li>
+	    	        			<li>
+	    	        				  <span class="color_red">  0.003113</span>                                 
+	    	        			</li>
+	    	        			<li>
+	    	        				 100  
+	    	        			</li>
+	    	        			<li>
+	    	        				20000.00
+	    	        			</li>
+	    	        		   </ul>
+	    	        		   <ul class="clearfix mai_ul">
+	    	        			<li class="left mai_ul_time">
+	    	        				03-22&nbsp;16:53:17
+	    	        			</li>
+	    	        			<li>
+	    	        				  <span class="color_red">  0.003113</span>                                 
+	    	        			</li>
+	    	        			<li>
+	    	        				 100  
+	    	        			</li>
+	    	        			<li>
+	    	        				20000.00
+	    	        			</li>
+	    	        		   </ul>
+	    	        		    <ul class="clearfix mai_ul">
+	    	        			<li class="left mai_ul_time">
+	    	        				03-22&nbsp;16:53:17
+	    	        			</li>
+	    	        			<li>
+	    	        				  <span class="color_red">  0.003113</span>                                 
+	    	        			</li>
+	    	        			<li>
+	    	        				 100  
+	    	        			</li>
+	    	        			<li>
+	    	        				20000.00
+	    	        			</li>
+	    	        		   </ul>
+	    	        		   <ul class="clearfix mai_ul">
+	    	        			<li class="left mai_ul_time">
+	    	        				03-22&nbsp;16:53:17
+	    	        			</li>
+	    	        			<li>
+	    	        				  <span class="color_red">  0.003113</span>                                 
+	    	        			</li>
+	    	        			<li>
+	    	        				 100  
+	    	        			</li>
+	    	        			<li>
+	    	        				20000.00
+	    	        			</li>
+	    	        		   </ul>
+	    	        		   <ul class="clearfix mai_ul">
+	    	        			<li class="left mai_ul_time">
+	    	        				03-22&nbsp;16:53:17
+	    	        			</li>
+	    	        			<li>
+	    	        				  <span class="color_red">  0.003113</span>                                 
+	    	        			</li>
+	    	        			<li>
+	    	        				 100  
+	    	        			</li>
+	    	        			<li>
+	    	        				20000.00
+	    	        			</li>
+	    	        		   </ul>
+	    	        		   <ul class="clearfix mai_ul">
+	    	        			<li class="left mai_ul_time">
+	    	        				03-22&nbsp;16:53:17
+	    	        			</li>
+	    	        			<li>
+	    	        				  <span class="color_red">  0.003113</span>                                 
+	    	        			</li>
+	    	        			<li>
+	    	        				 100  
+	    	        			</li>
+	    	        			<li>
+	    	        				20000.00
+	    	        			</li>
+	    	        		   </ul>
+	    	        		</div>
+	    	        	</div>
+	    	        </div>
+	    	    </div>
+	    	   <div class="right jy_rt">
+	    	   	<div class="jy_rt_one">
+	    	   		<div class="jy_rt_one_tl clearfix">
+	    	   			<span class="left">委托历史</span>
+	    	   			<a href="#" class="right">MORE</a>
+	    	   		</div>
+	    	   		<div class="clearfix lishi lishi_tl">
+	    	   			<div class="lishi_time left">时间</div>
+	    	   			<div class="lishi_main left">买/卖</div>
+	    	   			<div class="lishi_price left">价格 (CNY)</div>
+	    	   			<div class="lishi_main left">数量</div>
+	    	   			<div class="lishi_main left">金额</div>
+	    	   			<div class="lishi_main left">&nbsp;</div>
+	    	   		</div>
+	    	   		<div class="lishi_b">
+	    	   			<div class="clearfix lishi">
+	    	   			<div class="lishi_time left">17:18:24</div>
+	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
+	    	   			<div class="lishi_price left">5.4512</div>
+	    	   			<div class="lishi_main left">5000</div>
+	    	   			<div class="lishi_main left"> 2512000</div>
+	    	   			<div class="lishi_main left">
+	    	   				<a href="#">撤销</a>
+	    	   			</div>
+	    	   		   </div>
+	    	   		    <div class="clearfix lishi">
+	    	   			<div class="lishi_time left">17:18:24</div>
+	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
+	    	   			<div class="lishi_price left">5.4512</div>
+	    	   			<div class="lishi_main left">5000</div>
+	    	   			<div class="lishi_main left"> 2512000</div>
+	    	   			<div class="lishi_main left">
+	    	   				成功
+	    	   			</div>
+	    	   		   </div>
+	    	   		</div>
+	    	   	    <div class="jy_rt_one_tl clearfix">
+	    	   			<span class="left">交易历史</span>
+	    	   			<a href="#" class="right">MORE</a>
+	    	   		</div>
+	    	        <div class="clearfix lishi lishi_tl jybiaoti">
+	    	   			<div class="lishi_time left">时间</div>
+	    	   			<div class="lishi_main left">买/卖</div>
+	    	   			<div class="lishi_price left">价格 (CNY)</div>
+	    	   			<div class="lishi_main left">数量</div>
+	    	   			<div class="lishi_main left">金额</div>
+	    	   		</div>
+	    	   	    <div class="lishi_b jybiaoti">
+	    	   			<div class="clearfix lishi">
+	    	   			<div class="lishi_time left">17:18:24</div>
+	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
+	    	   			<div class="lishi_price left">5.4512</div>
+	    	   			<div class="lishi_main left">5000</div>
+	    	   			<div class="lishi_main left"> 2512000</div>
+	    	   		
+	    	   		   </div>
+	    	   		    <div class="clearfix lishi">
+	    	   			<div class="lishi_time left">17:18:24</div>
+	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
+	    	   			<div class="lishi_price left">5.4512</div>
+	    	   			<div class="lishi_main left">5000</div>
+	    	   			<div class="lishi_main left"> 2512000</div>
+	    	   		
+	    	   		   </div>
+	    	   		   <div class="clearfix lishi">
+	    	   			<div class="lishi_time left">17:18:24</div>
+	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
+	    	   			<div class="lishi_price left">5.4512</div>
+	    	   			<div class="lishi_main left">5000</div>
+	    	   			<div class="lishi_main left"> 2512000</div>
+	    	   		
+	    	   		   </div>
+	    	   		   <div class="clearfix lishi">
+	    	   			<div class="lishi_time left">17:18:24</div>
+	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
+	    	   			<div class="lishi_price left">5.4512</div>
+	    	   			<div class="lishi_main left">5000</div>
+	    	   			<div class="lishi_main left"> 2512000</div>
+	    	   		
+	    	   		   </div>
+	    	   		   <div class="clearfix lishi">
+	    	   			<div class="lishi_time left">17:18:24</div>
+	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
+	    	   			<div class="lishi_price left">5.4512</div>
+	    	   			<div class="lishi_main left">5000</div>
+	    	   			<div class="lishi_main left"> 2512000</div>
+	    	   		
+	    	   		   </div>
+	    	   		   <div class="clearfix lishi">
+	    	   			<div class="lishi_time left">17:18:24</div>
+	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
+	    	   			<div class="lishi_price left">5.4512</div>
+	    	   			<div class="lishi_main left">5000</div>
+	    	   			<div class="lishi_main left"> 2512000</div>
+	    	   		
+	    	   		   </div>
+	    	   		   <div class="clearfix lishi">
+	    	   			<div class="lishi_time left">17:18:24</div>
+	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
+	    	   			<div class="lishi_price left">5.4512</div>
+	    	   			<div class="lishi_main left">5000</div>
+	    	   			<div class="lishi_main left"> 2512000</div>
+	    	   		
+	    	   		   </div>
+	    	   		   <div class="clearfix lishi">
+	    	   			<div class="lishi_time left">17:18:24</div>
+	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
+	    	   			<div class="lishi_price left">5.4512</div>
+	    	   			<div class="lishi_main left">5000</div>
+	    	   			<div class="lishi_main left"> 2512000</div>
+	    	   		
+	    	   		   </div>
+	    	   		   <div class="clearfix lishi">
+	    	   			<div class="lishi_time left">17:18:24</div>
+	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
+	    	   			<div class="lishi_price left">5.4512</div>
+	    	   			<div class="lishi_main left">5000</div>
+	    	   			<div class="lishi_main left"> 2512000</div>
+	    	   		
+	    	   		   </div>
+	    	   		   <div class="clearfix lishi">
+	    	   			<div class="lishi_time left">17:18:24</div>
+	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
+	    	   			<div class="lishi_price left">5.4512</div>
+	    	   			<div class="lishi_main left">5000</div>
+	    	   			<div class="lishi_main left"> 2512000</div>
+	    	   		
+	    	   		   </div>
+	    	   		   <div class="clearfix lishi">
+	    	   			<div class="lishi_time left">17:18:24</div>
+	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
+	    	   			<div class="lishi_price left">5.4512</div>
+	    	   			<div class="lishi_main left">5000</div>
+	    	   			<div class="lishi_main left"> 2512000</div>
+	    	   		
+	    	   		   </div>
+	    	   		   <div class="clearfix lishi">
+	    	   			<div class="lishi_time left">17:18:24</div>
+	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
+	    	   			<div class="lishi_price left">5.4512</div>
+	    	   			<div class="lishi_main left">5000</div>
+	    	   			<div class="lishi_main left"> 2512000</div>
+	    	   		
+	    	   		   </div>
+	    	   		   <div class="clearfix lishi">
+	    	   			<div class="lishi_time left">17:18:24</div>
+	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
+	    	   			<div class="lishi_price left">5.4512</div>
+	    	   			<div class="lishi_main left">5000</div>
+	    	   			<div class="lishi_main left"> 2512000</div>
+	    	   		
+	    	   		   </div>
+	    	   		   <div class="clearfix lishi">
+	    	   			<div class="lishi_time left">17:18:24</div>
+	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
+	    	   			<div class="lishi_price left">5.4512</div>
+	    	   			<div class="lishi_main left">5000</div>
+	    	   			<div class="lishi_main left"> 2512000</div>
+	    	   		
+	    	   		   </div>
+	    	   		   <div class="clearfix lishi">
+	    	   			<div class="lishi_time left">17:18:24</div>
+	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
+	    	   			<div class="lishi_price left">5.4512</div>
+	    	   			<div class="lishi_main left">5000</div>
+	    	   			<div class="lishi_main left"> 2512000</div>
+	    	   		
+	    	   		   </div>
+	    	   		    <div class="clearfix lishi">
+	    	   			<div class="lishi_time left">17:18:24</div>
+	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
+	    	   			<div class="lishi_price left">5.4512</div>
+	    	   			<div class="lishi_main left">5000</div>
+	    	   			<div class="lishi_main left"> 2512000</div>
+	    	   		
+	    	   		   </div>
+	    	   		</div>
+	    	   	</div>
+	    	     <div class="jy_rt_two">
+	    	     	<div class="jy_rt_one_tl clearfix">
+	    	   			<span class="left">
+	    	   				<img src="images/jiaoyi_34.png" />
+	    	   				币种消息
+	    	   			</span>
+	    	   			<a href="#" class="right">MORE</a>
+	    	   		</div>
+	    	   		<ul class="jy_rt_two_ul">
+	    	   			<li>
+	    	   				<a href="#">币种消息币种消息币种消息</a>
+	    	   			</li>
+	    	   			<li>
+	    	   				<a href="#">币种消息币种消息币种消息</a>
+	    	   			</li>
+	    	   			<li>
+	    	   				<a href="#">币种消息币种消息币种消息</a>
+	    	   			</li>
+	    	   			<li>
+	    	   				<a href="#">币种消息币种消息币种消息</a>
+	    	   			</li>
+	    	   			<li>
+	    	   				<a href="#">币种消息币种消息币种消息</a>
+	    	   			</li>
+	    	   		</ul>
+	    	     </div>
+	    	   </div>
+	    	</div>
+	    </div>
+	   
+	    
+	    <script type="text/javascript" src="js/main.js" ></script>
+	    <script>
+	    	//首页滚动
+var $$ = function(id) {
+				return document.getElementById(id);
+			}
+			var start;
+			$$('box2').innerHTML = $$('box1').innerHTML;
+
+			function roll() {
+				wrap.scrollTop++;
+
+				if($$('box1').offsetHeight - wrap.scrollTop > 0) { //尚未滚动到第二部分的顶部位置时
+					if(wrap.scrollTop % wrap.offsetHeight != 0) //
+					{
+						return(setTimeout(roll, 20)); //20毫秒即递归一次
+					} else { //当滚动的累计距离达到显示域高度的倍数时
+						return(setTimeout(roll, 2000)); //等待2秒才递归调用
+					}
+				} else {
+					setTimeout("$$('wrap').scrollTop=0;roll()", 2000);
+				}
+			}
+			setTimeout(roll, 2000)
+	    </script>
+	</body>
+</html>
