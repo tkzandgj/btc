@@ -5,6 +5,7 @@
 		<title></title>
 		<link rel="stylesheet" href="css/init.css" />
 		<link rel="stylesheet" href="css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/jquery.range.css"/>
 		<script type="text/javascript" src="js/jquery-1.7.2.js" ></script>
 	</head>
 	<body style="background: #f9f9f9;">
@@ -730,13 +731,16 @@
 	    	        			<div class="clearfix jy_middle_two_gp">
 	    	        				<div class="left jy_middle_two_gp_name clearfix">
 	    	        					<span class="left">买入比例：</span>
-	    	        					<span class="right baifenbi">22.33%</span>
 	    	        				</div>
-	    	        				<div class="jy_middle_jd right">
+	    	        				<div class="demo">
+											<input type="hidden" class="single-slider" value="23" />
+											<!--<button id="g1">获取值</button>-->
+									</div>
+	    	        				<!--<div class="jy_middle_jd right">
 	    	        					<div class="jindu_main">
 	    	        						<div class="jindu_main_con" style="width: 23%;"></div>
 	    	        					</div>
-	    	        				</div>
+	    	        				</div>-->
 	    	        			</div>
 	    	        			<div class="clearfix jy_middle_two_gp">
 	    	        				<div class="left jy_middle_two_gp_name">价格：</div>
@@ -758,13 +762,13 @@
 	    	        				<input type="text" class="right" />
 	    	        				<span class="danwei">BTC</span>
 	    	        			</div>
-	    	        			<div class="clearfix jy_middle_two_gp">
+	    	        			<!--<div class="clearfix jy_middle_two_gp">
 	    	        				<div class="left jy_middle_two_gp_name">交易密码</div>
 	    	        				<input type="text" class="right" />
-	    	        			</div>
+	    	        			</div>-->
 	    	        			<div class="clearfix jy_middle_two_gp mai">
-	    	        				<a href="#" class="left btn_hui">高级设置</a>
-	    	        				<a href="#" class="right btn_green">买</a>
+	    	        				<div  class="left btn_hui">高级设置</div>
+	    	        				<div class="right btn_green">买</div>
 	    	        			</div>
 	    	        		</div>
 	    	        	</div>
@@ -785,13 +789,18 @@
 	    	        			<div class="clearfix jy_middle_two_gp">
 	    	        				<div class="left jy_middle_two_gp_name clearfix">
 	    	        					<span class="left">卖出比例：</span>
-	    	        					<span class="right baifenbi">22.33%</span>
+	    	        					<!--<span class="right baifenbi">22.33%</span>-->
 	    	        				</div>
-	    	        				<div class="jy_middle_jd right">
+	    	        				
+	    	        				<div class="demo">
+											<input type="hidden" class="range-slider" value="23" />
+											<!--<button id="g1">获取值</button>-->
+									</div>
+	    	        				<!--<div class="jy_middle_jd right">
 	    	        					<div class="jindu_main">
 	    	        						<div class="jindu_main_con" style="width: 23%;"></div>
 	    	        					</div>
-	    	        				</div>
+	    	        				</div>-->
 	    	        			</div>
 	    	        			<div class="clearfix jy_middle_two_gp">
 	    	        				<div class="left jy_middle_two_gp_name">价格：</div>
@@ -813,13 +822,13 @@
 	    	        				<input type="text" class="right" />
 	    	        				<span class="danwei">BTC</span>
 	    	        			</div>
-	    	        			<div class="clearfix jy_middle_two_gp">
+	    	        			<!--<div class="clearfix jy_middle_two_gp">
 	    	        				<div class="left jy_middle_two_gp_name">交易密码</div>
 	    	        				<input type="text" class="right" />
-	    	        			</div>
+	    	        			</div>-->
 	    	        			<div class="clearfix jy_middle_two_gp mai">
-	    	        				<a href="#" class="left btn_hui">高级设置</a>
-	    	        				<a href="#" class="right btn_red">卖</a>
+	    	        				<div  class="left btn_hui">高级设置</div>
+	    	        				<div  class="right btn_red">卖</div>
 	    	        			</div>
 	    	        		</div>
 	    	        	</div>
@@ -1129,6 +1138,8 @@
 	    	        	</div>
 	    	        </div>
 	    	    </div>
+	    	    
+<!--	    	    
 	    	   <div class="right jy_rt">
 	    	   	<div class="jy_rt_one">
 	    	   		<div class="jy_rt_one_tl clearfix">
@@ -1333,35 +1344,41 @@
 	    	   			</li>
 	    	   		</ul>
 	    	     </div>
-	    	   </div>
+	    	   </div>-->
+	    	
+	    	
+	    	
+	    	
+	    	
+	    	
 	    	</div>
 	    </div>
 	   
 	    
 	    <script type="text/javascript" src="js/main.js" ></script>
+	    <!--新-->
+	    <script src="js/jquery.range.js" type="text/javascript" charset="utf-8"></script>
 	    <script>
-	    	//首页滚动
-var $$ = function(id) {
-				return document.getElementById(id);
-			}
-			var start;
-			$$('box2').innerHTML = $$('box1').innerHTML;
-
-			function roll() {
-				wrap.scrollTop++;
-
-				if($$('box1').offsetHeight - wrap.scrollTop > 0) { //尚未滚动到第二部分的顶部位置时
-					if(wrap.scrollTop % wrap.offsetHeight != 0) //
-					{
-						return(setTimeout(roll, 20)); //20毫秒即递归一次
-					} else { //当滚动的累计距离达到显示域高度的倍数时
-						return(setTimeout(roll, 2000)); //等待2秒才递归调用
-					}
-				} else {
-					setTimeout("$$('wrap').scrollTop=0;roll()", 2000);
-				}
-			}
-			setTimeout(roll, 2000)
+	    	$('.single-slider').jRange({
+				from: 0,
+				to: 100,
+				step: 1,
+				scale: [0,25,50,75,100],
+				format: '%s',
+				width: 169,
+				showLabels: true,
+				showScale: true
+			});
+			$('.range-slider').jRange({
+				from: 0,
+				to: 100,
+				step: 1,
+				scale: [0,25,50,75,100],
+				format: '%s',
+				width: 169,
+				showLabels: true,
+				showScale: true
+			});
 	    </script>
 	</body>
 </html>

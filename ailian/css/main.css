@@ -13,7 +13,7 @@
 .language_yin img{display: inline-block;vertical-align: middle;margin-right: 8px;}
 .language:hover .language_yin{display: block;}
 .language_yin a:hover{color: #eb5c38;}
-.jz{width: 1200px;margin: 0px auto;}
+.jz{width: 1400px;margin: 0px auto;}
 .menu{background: #001c45;height: 80px;}
 .logo{display: block;background: url(../images/index_18.png) no-repeat;width: 100px;height: 68px;margin-top: 6px;}
 .menu_rt{line-height: 30px;margin-top: 24px;}
@@ -34,12 +34,12 @@
 .index_news_rt{width: 1040px;height: 160px;overflow: hidden;margin-left: 20px;}
 .index_news_rt li{height: 32px;overflow: hidden;}
 .index_two{padding: 40px 0px;background: #38a3f5;}
-.index_two_lf{width: 780px;border: 5px solid  rgba(255,255,255,0.3);border-radius: 3px;}
+.index_two_lf{width: 60%;border: 5px solid  rgba(255,255,255,0.3);border-radius: 3px;}
 .index_two_lf_tl{padding: 26px 22px 16px 22px;}
 .index_two_lf_tl a{display: block;float: left;line-height: 38px;width: 144px;text-align: center;border-radius: 3px;color: #fff;font-size: 16px;background: rgba(255,255,255,0.3);margin-right: 10px;border: 1px solid rgba(255,255,255,0.5);}
 .index_two_lf_tl a:hover{background: #ff5c52;border: 1px solid #ff5c52;color: #fff;}
 .index_two_lf_tl .ahover{background: #ff5c52;border: 1px solid #ff5c52;color: #fff;}
-.index_two_lf_con{display: none;height: 338px;}
+.index_two_lf_con{display: none;height: 338px;overflow-y: auto;}
 .tixian_con{display: none;}
 .zc_b_main{display: none;}
 .zc_b_main_con{display: none;}
@@ -99,9 +99,9 @@
 .zichan_table td{padding: 10px 14px;font-size: 14px;border-bottom: 1px solid #dddddd;text-align: left;}
 .btn_blue{background: #54b3e8;color: #fff;}
 .btn_blue:hover{background: #70c7f7;color: #fff;}
-.btn_red{background: #e83d2c;color: #fff;}
+.btn_red{background: #e83d2c;color: #fff;width: 80px;text-align: center;}
 .btn_red:hover{background: #f94331;color: #fff;}
-.btn_green{background: #15c288;color: #fff;}
+.btn_green{background: #15c288;color: #fff;width: 80px;text-align: center;}
 .btn_green:hover{background: #17df9c;color: #fff;}
 .btn_yellow{background: #fd9271;color: #fff;}
 .btn_yellow:hover{background: #f57249;color: #fff;}
@@ -270,8 +270,8 @@
 .jy_middle_two_main_con_tl img{display: inline-block;vertical-align: -3px;margin-right: 5px;}
 .jy_middle_two_gp{padding: 0px 5px;position: relative;margin-bottom: 5px;}
 .jy_middle_two_gp_name{width: 38%;line-height: 18px;}
-.jy_middle_two_gp input{padding: 0px 3%;width: 52%;border: 1px solid #e0dfdf;height: 16px;line-height: 16px;}
-.danwei{position: absolute;line-height: 18px;color: #848484;right: 25px;top: 0px;}
+.jy_middle_two_gp input{padding: 0px 3%;width: 52%;border: 1px solid #e0dfdf;height: 26px;line-height: 16px;}
+.danwei{position: absolute;line-height: 18px;color: #848484;right: 25px;top: 5px;}
 .baifenbi{color: #848484;}
 .jy_middle_jd{width: 58%;}
 .jy_middle_jd .jindu_main{width: 100%;}
