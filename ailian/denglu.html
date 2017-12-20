@@ -1,0 +1,194 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width">
+	<title>CoinEgg - 专业的区块链资产交易平台，为全球用户提供虚拟数字货币交易，提供币币交易</title>
+    <meta name="keywords" content="比特币,比特币行情,比特币交易,数字货币交易平台,虚拟货币,以太坊,ETC,以太经典,以太币,ETH,比特币兑换,莱特币兑换,比特币买卖,数字货币,山寨币,山寨币大全,虚拟币,莱特币,瑞波币,虚拟币新闻资讯"/>
+    <meta name="description" content=" CoinEgg - 专业的区块链资产交易平台，支持多种数字货币交易投资买卖，包括比特币、莱特币、瑞波币、Lisk、以太坊、以太币、以太经典等虚拟数字货币资产，提供数字货币和区块链资产最新行情、排行交易查询等资讯信息"/>
+    <!--<link rel="stylesheet" href="denglu/global.css?v=1.3" type="text/css">-->
+	<link rel="stylesheet" href="css/init.css" />
+	<link rel="stylesheet" href="denglu/mian.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+    <script src="js/jquery-1.7.2.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body >
+	<!--头部-->
+    <div class="head clearfix">
+			<div class="left head_lf">
+					欢迎xxxxx
+			</div>
+			<div class="right language clearfix">
+				<span class="language_t right clearfix">
+					<img src="images/language_03.png" class="left" />
+					<em class="left"></em>
+				</span>
+				<div class="language_yin">
+					<p>
+						<a href="#">
+							<img src="images/language_03.png" />
+							<span>China</span>
+						</a>
+					</p>
+					<p>
+						<a href="#">
+							<img src="images/languages3_07.png" />
+							<span>English</span>
+						</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	<div class="menu">
+	    	<div class="jz clearfix">
+	    		<a href="index.html" class="left logo"></a>
+	    		<div class="right menu_rt clearfix">
+	    			<div class="left menu_main">
+	    				<a href="index.html" class="ahover">首页</a>
+	    				<a href="jiaoyi.html">交易中心</a>
+	    				<!--<a href="zhongchou.html">众筹中心 </a>-->
+	    				<a href="caiwu.html">财务中心</a>
+	    			</div>
+	    			<div class="left zhuce">
+	    				<span>|</span>
+	    				<a href="#">登录 </a>
+	    				<a href="#">注册</a>
+	    			</div>
+	    		</div>
+	    	</div>
+	    </div>	
+	<!--头部结束-->	
+	
+	<div class="sign-body">
+    <div class="sign_box">
+        <p class="t">登录</p>
+        <p class="note">
+        </p>
+        <form id="login-form" action="" class="login-form">
+            <div class="login_item">
+                <div class="login_item_l">账号:</div>
+                <div class="login_item_r">
+                    <input type="text" id="login-email-i" onblur="loginga('-i')" name="email" placeholder="请输入账号" onkeydown="if(event.keyCode==13){login()}"/>
+                    <p id="email-error" style="display: none;" class="err"></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="login_item">
+                <div class="login_item_l">登录密码:</div>
+                <div class="login_item_r">
+                    <input type="password" name="pw" placeholder="请输入登录密码" onkeydown="if(event.keyCode==13){login()}"/>
+                    <p class="err" style="display: none;"></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div id="ga-i"  class="login_item login_item_p" style="display: none;">
+                <div class="login_item_l">谷歌验证码</div>
+                <div class="login_item_r">
+                    <input style=" margin-bottom: 30px;" type="text" name="ga" placeholder="谷歌双重认证码"/>
+                </div>
+                <div class="clear"></div>
+            </div>
+			<div id="code"></div>
+            <div class="login_item" style="padding-bottom: 45px;">
+                <div class="login_item_l"></div>
+                <div class="login_item_r">
+                    <input type="button" class="btn" onclick="login()"  value="登录"/>
+                    <p class="has"><a href="/user/forgetpw" class="blue">忘记密码？</a>  <span>还没有账户？</span> <a href="/user/register" class="blue">注册</a></p>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </form>
+        </div>
+</div>
+<script>
+    var login_ed = "";
+    var login_type = "mobile";
+    if(login_ed == 'location' && login_type == 'email'){
+        code_popup();
+        $('.tel_s_h').hide();
+        $('.email_s_h').show();
+        $('#code').prop('placeholder','请输入邮箱验证码');
+    }
+    if(login_ed == 'location' && login_type == 'mobile'){
+        code_popup();
+        $('.tel_s_h').show();
+        $('.email_s_h').hide();
+        $('#code').prop('placeholder','请输入手机验证码');
+    }
+    $(document).on('click','.close_popup_code',function () {
+        location.href = '/user/logout';
+    })
+    $(document).on('click','#email_code',function () {
+        $.post('/user/sendmail/act/auth',function (d) {
+            if(d.status == '1'){
+                alert(d.msg);
+            }
+            if(d.status == '0'){
+                alert(d.msg);
+            }
+        },'json')
+    })
+    $(document).on('click','#sure_popup_code',function () {
+        var code = $('#code').val();
+        $.post('/user/auth',{code:code},function (d) {
+            if(d.status == '1'){
+                location.href = d.data;
+            }
+            if(d.status == '0'){
+                alert(d.msg);
+            }
+        },'json')
+    })
+    var login_more = "";
+    if(login_more == 'password'){
+        more_login();
+    }
+    $(function () {
+        $(document).on('click','.btn-mobile-tel1,.btn-mobile-sms1',function () {
+            var data = {mobile:$('#login-email-i').val(), captcha:$('#captcha').val(), type:codetype};
+            var type = 'sms';
+            if(codetype == 2) type='voice';
+            $.post('/user/sendsms/act/auth/type/' + type,data,function (d) {
+                if(d.status == '1') {
+                    $('.btn-mobile-sms1').hide();
+                    $('.btn-mobile-tel1').hide();
+                    $('#btn-mobile-sms1_1').show();
+                    $('#btn-mobile-tel1_1').show();
+                    time();
+                    time2();
+                    return alert("验证码已经发送到您的手机，请注意查收");
+                }
+                alert(d.msg);
+	            COMMON_INDEX.recode();
+                return false; 1
+            }, 'json');
+        })
+    })
+</script>
+	</div>
+
+<div class="footer">
+	<div class="footer_t">
+		<div class="footer_t_main clearfix">
+			<a href="index.html" class="footer_logo left"></a>
+			<div class="left footer_menu clearfix">
+				<a href="#">关于我们 </a><span>&nbsp;|&nbsp;</span>
+				<a href="#">法律声明</a><span> &nbsp;|&nbsp;</span>
+				<a href="#">手续费率</a><span> &nbsp;|&nbsp;</span>
+				<a href="#">意见反馈</a>
+			</div>
+			<a href="#" class="right wb">关注我们</a>
+		</div>
+	</div>
+	<div class="footer_b">
+		<div class="jz clearfix">
+			<span>© 2017 河南省郑州市金多投资管理有限公司 </span>
+			<span>QQ群1：213365551 </span>
+			<span>豫ICP备100000000 </span>
+			<span class="beian">豫公网安备 00000000000000号</span>
+		</div>
+	</div>
+</div>
+</body>
+</html>
