@@ -316,6 +316,7 @@
 .zx_table td{padding: 15px 16px;text-align: center;font-size: 16px;color: #fff;border-bottom: 1px solid rgba(255,255,255,0.4);}
 .zx_table td img{display: inline-block;vertical-align: middle;margin-right: 10px;}
 .zx_table tr:last-child td{border-bottom: none;}
+.zx_table tr:hover td{background: rgba(255,255,255,0.2);}
 .jybiaoti1{
 	       max-height: 927px;
     height: 927px;
@@ -326,4 +327,9 @@
     border: 1px solid #e0dfdf;
     height: 26px;
     line-height: 16px;
+}
+.lishi_maina {
+    float: left;
+    width: 15%;
+    text-align: center;
 }
