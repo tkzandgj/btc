@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html>
+
 	<head>
 		<meta charset="utf-8" />
 		<title></title>
 		<link rel="stylesheet" href="css/init.css" />
 		<link rel="stylesheet" href="css/main.css" />
-		<link rel="stylesheet" type="text/css" href="css/jquery.range.css"/>
-		<script type="text/javascript" src="js/jquery-1.7.2.js" ></script>
+		<link rel="stylesheet" type="text/css" href="css/jquery.range.css" />
+		<link rel="stylesheet" type="text/css" href="css/jiaoyi.css" />
+		<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
 	</head>
+
 	<body style="background: #f9f9f9;">
 		<div class="head clearfix">
 			<div class="left head_lf">
@@ -34,1338 +37,2300 @@
 				</div>
 			</div>
 		</div>
-	    <div class="menu">
-	    	<div class="jz clearfix">
-	    		<a href="index.html" class="left logo"></a>
-	    		<div class="right menu_rt clearfix">
-	    			<div class="left menu_main">
-	    				<a href="index.html" class="ahover">首页</a>
-	    				<a href="jiaoyi.html">交易中心</a>
-	    				<a href="zhongchou.html">众筹中心 </a>
-	    				<a href="caiwu.html">财务中心</a>
-	    			</div>
-	    			<div class="left zhuce">
-	    				<span>|</span>
-	    				<a href="#">登录 </a>
-	    				<a href="#">注册</a>
-	    			</div>
-	    		</div>
-	    	</div>
-	    </div>
-	    <div class="jiaoyi">
-	    	<div class="jiaoyi_one">
-	    		<div class="jiaoyi_one_main clearfix">
-	    			<span class="left jiaoyi_one_ico">最新公告：</span>
-	    			<div class="jiaoyi_one_rt" id="wrap">
-	    				<ul id="box1">
-	    					<li>
-	    						<a href="#">
-	    							<span>[2017-03-24]</span>云联币认购活动圆满结束和开盘时间公告    
-	    						</a>
-	    					</li>
-	    					<li>
-	    						<a href="#">
-	    							<span>[2017-03-25]</span>云联币认购活动圆满结束和开盘时间公告    
-	    						</a>
-	    					</li>
-	    					<li>
-	    						<a href="#">
-	    							<span>[2017-03-26]</span>云联币认购活动圆满结束和开盘时间公告    
-	    						</a>
-	    					</li>
-	    				</ul>
-	    			    <ul id="box2"></ul>
-	    			</div>
-	    		</div>
-	    	    <em class="jycha"></em>
-	    	</div>
-	    	<div class="clearfix jy_b">
-	    		<div class="jy_lf left">
-	    			<div class="jy_lf_one">
-	    				<div class="clearfix jy_lf_one_main">
-	    					<span class="left">币种搜索：</span>
-	    					<a href="#" class="right ssbtn btn_red">
-	    						搜索<em></em>
-	    					</a>
-	    					<div class="jy_lf_one_in">
-	    					<input type="text" />
-	    					</div>
-	    					
-	    				</div>
-	    			</div>
-	    		    <div class="jy_lf_two">
-	    		    	<div class="jy_lf_two_tl clearfix">
-	    		    		<a href="javascript:;" class="ahover">人民币区</a>
-	    		    		<a href="javascript:;">BTC区</a>
-	    		    	</div>
-	    		    	<div class="jy_lf_two_b">
-	    		    		<div class="jy_lf_two_b_con active">
-	    		    			<div class="clearfix jy_lf_two_b_tl">
-	    		    				<div class="left bizhong">
-	    		    					币种
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					价格
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					 24H涨跌
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_ul">
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			</div>
-	    		    		</div>
-	    		    	    <div class="jy_lf_two_b_con">
-	    		    			<div class="clearfix jy_lf_two_b_tl">
-	    		    				<div class="left bizhong">
-	    		    					币种
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					价格
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					 24H涨跌
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_ul">
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					 AMP	
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					 AMP	
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					 AMP	
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			<div class="jy_lf_two_b_li clearfix">
-	    		    				<div class="left bizhong">
-	    		    					ETH
-	    		    				</div>
-	    		    				<div class="left jiage">
-	    		    					353.1504708	
-	    		    				</div>
-	    		    				<div class="left diezhang">
-	    		    					5.44%
-	    		    				</div>
-	    		    			</div>
-	    		    			</div>
-	    		    		</div>
-	    		    	</div>
-	    		    </div>
-	    		</div>
-	    	    <div class="left jy_middle">
-	    	    	<div class="jy_middle_one">
-	    	    		<div class="clearfix">
-	    	    			<div class="left bite">
-	    	    				<p>比特币 对 人民币</p>
-	    	    				BTC / CNY
-	    	    			</div>
-	    	    			<div class="right jy_middle_one_rt">
-	    	    					 24H成交量 
-	    	    					<p>1296.5827</p>
-	    	    				</div>
-	    	    				<div class="right jy_middle_one_rt">
-	    	    					最高价 / 最低价  
-	    	    					<p>8155.00/7001.00</p>
-	    	    				</div>
-	    	    				<div class="right jy_middle_one_rt">
-	    	    					买一价 /卖一价
-	    	    					<p>7078.00/7080.00</p>
-	    	    				</div>
-	    	    				<div class="right jy_middle_one_rt">
-	    	    					最新价 
-	    	    					<p><span class="color_red">7080.00</span></p>
-	    	    				</div>
-	    	    				
-	    	    				
-	    	    				
-	    	    		</div>
-	    	    	    <div class="biaoge">
-	    	    	    	<img src="images/jiaoyi_23.png" style="width: 100%;height: 208px;" />
-	    	    	    </div>
-	    	    	</div>
-	    	        <div class="jy_middle_two clearfix">
-	    	        	<div class="jy_middle_two_main left">
-	    	        		<div class="jy_middle_two_main_con">
-	    	        			<div class="jy_middle_two_main_con_tl clearfix">
-	    	        				<div class="left">
-	    	        					<img src="images/jiaoyi_27.png" />
-	    	        					买
-	    	        				</div>
-	    	        				<span class="right">可用人民币：2050.00</span>
-	    	        			</div>
-	    	        			<div class="clearfix jy_middle_two_gp">
-	    	        				<div class="left jy_middle_two_gp_name">数量：</div>
-	    	        				<input type="text" class="right" />
-	    	        				<span class="danwei">ETH</span>
-	    	        			</div>
-	    	        			<div class="clearfix jy_middle_two_gp">
-	    	        				<div class="left jy_middle_two_gp_name clearfix">
-	    	        					<span class="left">买入比例：</span>
-	    	        				</div>
-	    	        				<div class="demo">
-											<input type="hidden" class="single-slider" value="23" />
-											<!--<button id="g1">获取值</button>-->
+		<div class="menu">
+			<div class="jz clearfix">
+				<a href="index.html" class="left logo"></a>
+				<div class="right menu_rt clearfix">
+					<div class="left menu_main">
+						<a href="index.html" class="ahover">首页</a>
+						<a href="jiaoyi.html">交易中心</a>
+						<a href="zhongchou.html">众筹中心 </a>
+						<a href="caiwu.html">财务中心</a>
+					</div>
+					<div class="left zhuce">
+						<span>|</span>
+						<a href="#">登录 </a>
+						<a href="#">注册</a>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="jiaoyi">
+			<div class="clearfix jy_b">
+				<table class="leftbar">
+					<tbody>
+						<tr>
+							<td style="border-bottom:0;" valign="top">
+								<div id="marketlist_wrapper" class="dataTables_wrapper" role="grid">
+
+									<table class="marketlist dataTable" id="tradelist" cellspacing="0" cellpadding="0">
+
+										<tbody role="alert" aria-live="polite" aria-relevant="all">
+											<tr>
+												<td class="no-wrap alignRight" width="100%" style="border-bottom:0">
+													<ul id="market_controller" class="clearfix">
+														<button value="USDT" class="tline_btn left_btn tn_selected">
+                                    对USDT
+                                </button>
+														<button value="BTC" class="tline_btn left_btn">
+                                    对BTC
+                                </button>
+														<button value="ETH" class="tline_btn left_btn">
+                                    对ETH
+                                </button>
+														<button value="NEW" class="tline_btn left_btn">
+                                    对QTUM
+                                </button>
+													</ul>
+													<input type="text" class="search" id="marketSearch" value="搜索...">
+												</td>
+											</tr>
+											<tr>
+												<td id="marketlist_container_usdt" class="no-wrap alignRight" style="display: block;">
+													<div id="marketlist_usdt_wrapper" class="dataTables_wrapper no-footer">
+														<table class="dataTable no-footer" id="marketlist_usdt" role="grid">
+															<thead>
+																<tr style="height:40px" role="row">
+																	<th class="no-wrap sortable sorting" tabindex="0" aria-controls="marketlist_usdt" rowspan="1" colspan="1" aria-label="币种: activate to sort column descending"><b>币种</b></th>
+																	<th class="no-wrap sortable alignRight sorting" tabindex="0" aria-controls="marketlist_usdt" rowspan="1" colspan="1" aria-label="价格(USDT): activate to sort column descending">价格<span id="leftPriceType">(USDT)</span></th>
+																	<th class="no-wrap sortable alignRight sorting_desc" id="leftbarupdntop" tabindex="0" aria-controls="marketlist_usdt" rowspan="1" colspan="1" aria-label="日涨跌: activate to sort column ascending" aria-sort="descending">日涨跌</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr class="odd" id="market_ctr_usdt_usdt" title="交易量：125,328 USDT" role="row">
+																	<td class="no-wrap" data-trade="CTR_USDT">
+																		<span class="icon-16 icon-16-ctr"></span>
+																		<span class="bizhong_en" line_id="market_ctr_usdt_usdt">CTR</span> <span title="Centra">Centra</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">1.62 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="red" id="leftbarupdn">+75.70 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_mkr_usdt_usdt" title="交易量：1,204 USDT" role="row">
+																	<td class="no-wrap" data-trade="MKR_USDT">
+																		<span class="icon-16 icon-16-mkr"></span>
+																		<span class="bizhong_en" line_id="market_mkr_usdt_usdt">MKR</span> <span title="MakerDAO">MakerDAO</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">1498.00 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="red" id="leftbarupdn">+49.80 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_ada_usdt_usdt" title="交易量：289,292 USDT" role="row">
+																	<td class="no-wrap" data-trade="ADA_USDT">
+																		<span class="icon-16 icon-16-ada"></span>
+																		<span class="bizhong_en" line_id="market_ada_usdt_usdt">ADA</span> <span title="艾达币">艾达币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.5170 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="red" id="leftbarupdn">+15.17 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_link_usdt_usdt" title="交易量：109,015 USDT" role="row">
+																	<td class="no-wrap" data-trade="LINK_USDT">
+																		<span class="icon-16 icon-16-link"></span>
+																		<span class="bizhong_en" line_id="market_link_usdt_usdt">LINK</span> <span title="ChainLink">ChainLink</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.5000 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="red" id="leftbarupdn">+14.63 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_dgd_usdt_usdt" title="交易量：8,349 USDT" role="row">
+																	<td class="no-wrap" data-trade="DGD_USDT">
+																		<span class="icon-16 icon-16-dgd"></span>
+																		<span class="bizhong_en" line_id="market_dgd_usdt_usdt">DGD</span> <span title="DigixDAO">DigixDAO</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">143.93 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="red" id="leftbarupdn">+12.45 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_powr_usdt_usdt" title="交易量：18,484 USDT" role="row">
+																	<td class="no-wrap" data-trade="POWR_USDT">
+																		<span class="icon-16 icon-16-powr"></span>
+																		<span class="bizhong_en" line_id="market_powr_usdt_usdt">POWR</span> <span title="PowerLedger">PowerLedger</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.9109 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="red" id="leftbarupdn">+9.75 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_waves_usdt_usdt" title="交易量：20,450 USDT" role="row">
+																	<td class="no-wrap" data-trade="WAVES_USDT">
+																		<span class="icon-16 icon-16-waves"></span>
+																		<span class="bizhong_en" line_id="market_waves_usdt_usdt">WAVES</span> <span title="波币">波币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">13.01 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="red" id="leftbarupdn">+8.42 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_dai_usdt_usdt" title="交易量：681,292 USDT" role="row">
+																	<td class="no-wrap" data-trade="DAI_USDT">
+																		<span class="icon-16 icon-16-dai"></span>
+																		<span class="bizhong_en" line_id="market_dai_usdt_usdt">DAI</span> <span title="Dai">Dai</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">1.01 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="red" id="leftbarupdn">+1.35 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_sbtc_usdt_usdt" title="交易量：104,058 USDT" role="row">
+																	<td class="no-wrap" data-trade="SBTC_USDT">
+																		<span class="icon-16 icon-16-sbtc"></span>
+																		<span class="bizhong_en" line_id="market_sbtc_usdt_usdt">SBTC</span> <span title="超级比特币">超级比特币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">259.07 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="red" id="leftbarupdn">+0.96 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_bch_usdt_usdt" title="交易量：1,430,014 USDT" role="row">
+																	<td class="no-wrap" data-trade="BCH_USDT">
+																		<span class="icon-16 icon-16-bch"></span>
+																		<span class="bizhong_en" line_id="market_bch_usdt_usdt">BCH</span> <span title="BCH(原BCC)">BCH(原BCC)</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">2521.94 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="red" id="leftbarupdn">+0.88 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_bat_usdt_usdt" title="交易量：105,976 USDT" role="row">
+																	<td class="no-wrap" data-trade="BAT_USDT">
+																		<span class="icon-16 icon-16-bat"></span>
+																		<span class="bizhong_en" line_id="market_bat_usdt_usdt">BAT</span> <span title="注意力币">注意力币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.3100 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="red" id="leftbarupdn">+0.76 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_gnt_usdt_usdt" title="交易量：26,472 USDT" role="row">
+																	<td class="no-wrap" data-trade="GNT_USDT">
+																		<span class="icon-16 icon-16-gnt"></span>
+																		<span class="bizhong_en" line_id="market_gnt_usdt_usdt">GNT</span> <span title="Golem">Golem</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.5400 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="red" id="leftbarupdn">+0.61 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_req_usdt_usdt" title="交易量：13,489 USDT" role="row">
+																	<td class="no-wrap" data-trade="REQ_USDT">
+																		<span class="icon-16 icon-16-req"></span>
+																		<span class="bizhong_en" line_id="market_req_usdt_usdt">REQ</span> <span title="Request">Request</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.2691 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="red" id="leftbarupdn">+0.52 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_neo_usdt_usdt" title="交易量：182,504 USDT" role="row">
+																	<td class="no-wrap" data-trade="NEO_USDT">
+																		<span class="icon-16 icon-16-neo"></span>
+																		<span class="bizhong_en" line_id="market_neo_usdt_usdt">NEO</span> <span title="小蚁Neo">小蚁Neo</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">60.15 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="red" id="leftbarupdn">+0.43 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_ven_usdt_usdt" title="交易量：122,853 USDT" role="row">
+																	<td class="no-wrap" data-trade="VEN_USDT">
+																		<span class="icon-16 icon-16-ven"></span>
+																		<span class="bizhong_en" line_id="market_ven_usdt_usdt">VEN</span> <span title="唯链">唯链</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">1.27 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="red" id="leftbarupdn">+0.17 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_xrp_usdt_usdt" title="交易量：874,144 USDT" role="row">
+																	<td class="no-wrap" data-trade="XRP_USDT">
+																		<span class="icon-16 icon-16-xrp"></span>
+																		<span class="bizhong_en" line_id="market_xrp_usdt_usdt">XRP</span> <span title="瑞波币">瑞波币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">1.12 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="red" id="leftbarupdn">+0.12 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_dash_usdt_usdt" title="交易量：143,690 USDT" role="row">
+																	<td class="no-wrap" data-trade="DASH_USDT">
+																		<span class="icon-16 icon-16-dash"></span>
+																		<span class="bizhong_en" line_id="market_dash_usdt_usdt">DASH</span> <span title="达世币">达世币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">1119.85 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-0.01 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_fil_usdt_usdt" title="交易量：644,567 USDT" role="row">
+																	<td class="no-wrap" data-trade="FIL_USDT">
+																		<span class="icon-16 icon-16-fil"></span>
+																		<span class="bizhong_en" line_id="market_fil_usdt_usdt">FIL</span> <span title="IPFS六月">IPFS六月</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">25.65 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-0.12 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_kick_usdt_usdt" title="交易量：39,459 USDT" role="row">
+																	<td class="no-wrap" data-trade="KICK_USDT">
+																		<span class="icon-16 icon-16-kick"></span>
+																		<span class="bizhong_en" line_id="market_kick_usdt_usdt">KICK</span> <span title="KickCoin">KickCoin</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0498 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-1.39 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_pay_usdt_usdt" title="交易量：274,583 USDT" role="row">
+																	<td class="no-wrap" data-trade="PAY_USDT">
+																		<span class="icon-16 icon-16-pay"></span>
+																		<span class="bizhong_en" line_id="market_pay_usdt_usdt">PAY</span> <span title="TenX">TenX</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">3.06 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-1.71 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_doge_usdt_usdt" title="交易量：2,027,553 USDT" role="row">
+																	<td class="no-wrap" data-trade="DOGE_USDT">
+																		<span class="icon-16 icon-16-doge"></span>
+																		<span class="bizhong_en" line_id="market_doge_usdt_usdt">DOGE</span> <span title="狗狗币">狗狗币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.006241 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-1.78 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_omg_usdt_usdt" title="交易量：123,983 USDT" role="row">
+																	<td class="no-wrap" data-trade="OMG_USDT">
+																		<span class="icon-16 icon-16-omg"></span>
+																		<span class="bizhong_en" line_id="market_omg_usdt_usdt">OMG</span> <span title="OmiseGo">OmiseGo</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">13.65 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-2.08 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_stx_usdt_usdt" title="交易量：39,460 USDT" role="row">
+																	<td class="no-wrap" data-trade="STX_USDT">
+																		<span class="icon-16 icon-16-stx"></span>
+																		<span class="bizhong_en" line_id="market_stx_usdt_usdt">STX</span> <span title="Stox">Stox</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.5624 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-2.12 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_rdn_usdt_usdt" title="交易量：118,598 USDT" role="row">
+																	<td class="no-wrap" data-trade="RDN_USDT">
+																		<span class="icon-16 icon-16-rdn"></span>
+																		<span class="bizhong_en" line_id="market_rdn_usdt_usdt">RDN</span> <span title="雷电网络">雷电网络</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">3.41 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-2.51 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_qash_usdt_usdt" title="交易量：432,549 USDT" role="row">
+																	<td class="no-wrap" data-trade="QASH_USDT">
+																		<span class="icon-16 icon-16-qash"></span>
+																		<span class="bizhong_en" line_id="market_qash_usdt_usdt">QASH</span> <span title="LIQUID">LIQUID</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.7672 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-3.06 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_zec_usdt_usdt" title="交易量：448,234 USDT" role="row">
+																	<td class="no-wrap" data-trade="ZEC_USDT">
+																		<span class="icon-16 icon-16-zec"></span>
+																		<span class="bizhong_en" line_id="market_zec_usdt_usdt">ZEC</span> <span title="ZCash">ZCash</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">509.70 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-3.55 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_ltc_usdt_usdt" title="交易量：1,755,936 USDT" role="row">
+																	<td class="no-wrap" data-trade="LTC_USDT">
+																		<span class="icon-16 icon-16-ltc"></span>
+																		<span class="bizhong_en" line_id="market_ltc_usdt_usdt">LTC</span> <span title="莱特币">莱特币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">258.00 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-3.63 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_cvc_usdt_usdt" title="交易量：55,316 USDT" role="row">
+																	<td class="no-wrap" data-trade="CVC_USDT">
+																		<span class="icon-16 icon-16-cvc"></span>
+																		<span class="bizhong_en" line_id="market_cvc_usdt_usdt">CVC</span> <span title="Civic">Civic</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.5600 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-4.11 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_mco_usdt_usdt" title="交易量：26,055 USDT" role="row">
+																	<td class="no-wrap" data-trade="MCO_USDT">
+																		<span class="icon-16 icon-16-mco"></span>
+																		<span class="bizhong_en" line_id="market_mco_usdt_usdt">MCO</span> <span title="Monaco">Monaco</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">14.00 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-4.14 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_iota_usdt_usdt" title="交易量：360,991 USDT" role="row">
+																	<td class="no-wrap" data-trade="IOTA_USDT">
+																		<span class="icon-16 icon-16-iota"></span>
+																		<span class="bizhong_en" line_id="market_iota_usdt_usdt">IOTA</span> <span title="IOTA">IOTA</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">3.75 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-5.04 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_btf_usdt_usdt" title="交易量：69,728 USDT" role="row">
+																	<td class="no-wrap" data-trade="BTF_USDT">
+																		<span class="icon-16 icon-16-btf"></span>
+																		<span class="bizhong_en" line_id="market_btf_usdt_usdt">BTF</span> <span title="比特信仰">比特信仰</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">153.20 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-5.43 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_pst_usdt_usdt" title="交易量：55,320 USDT" role="row">
+																	<td class="no-wrap" data-trade="PST_USDT">
+																		<span class="icon-16 icon-16-pst"></span>
+																		<span class="bizhong_en" line_id="market_pst_usdt_usdt">PST</span> <span title="Primas">Primas</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.4910 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-5.52 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_qbt_usdt_usdt" title="交易量：84,410 USDT" role="row">
+																	<td class="no-wrap" data-trade="QBT_USDT">
+																		<span class="icon-16 icon-16-qbt"></span>
+																		<span class="bizhong_en" line_id="market_qbt_usdt_usdt">QBT</span> <span title="Qbao">Qbao</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.6671 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-5.83 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_bot_usdt_usdt" title="交易量：698,771 USDT" role="row">
+																	<td class="no-wrap" data-trade="BOT_USDT">
+																		<span class="icon-16 icon-16-bot"></span>
+																		<span class="bizhong_en" line_id="market_bot_usdt_usdt">BOT</span> <span title="菩提">菩提</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.8986 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-6.01 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_tnt_usdt_usdt" title="交易量：59,009 USDT" role="row">
+																	<td class="no-wrap" data-trade="TNT_USDT">
+																		<span class="icon-16 icon-16-tnt"></span>
+																		<span class="bizhong_en" line_id="market_tnt_usdt_usdt">TNT</span> <span title="Tierion">Tierion </span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.1188 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-6.09 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_qtum_usdt_usdt" title="交易量：1,966,900 USDT" role="row">
+																	<td class="no-wrap" data-trade="QTUM_USDT">
+																		<span class="icon-16 icon-16-qtum"></span>
+																		<span class="bizhong_en" line_id="market_qtum_usdt_usdt">QTUM</span> <span title="量子链">量子链</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">43.27 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-6.22 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_btc_usdt_usdt" title="交易量：12,011,878 USDT" role="row">
+																	<td class="no-wrap" data-trade="BTC_USDT">
+																		<span class="icon-16 icon-16-btc"></span>
+																		<span class="bizhong_en" line_id="market_btc_usdt_usdt">BTC</span> <span title="比特币">比特币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">13499.80 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-6.26 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_bcx_usdt_usdt" title="交易量：927,689 USDT" role="row">
+																	<td class="no-wrap" data-trade="BCX_USDT">
+																		<span class="icon-16 icon-16-bcx"></span>
+																		<span class="bizhong_en" line_id="market_bcx_usdt_usdt">BCX</span> <span title="比特无限">比特无限</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0652 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-6.46 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_knc_usdt_usdt" title="交易量：139,865 USDT" role="row">
+																	<td class="no-wrap" data-trade="KNC_USDT">
+																		<span class="icon-16 icon-16-knc"></span>
+																		<span class="bizhong_en" line_id="market_knc_usdt_usdt">KNC</span> <span title="Kyber">Kyber</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">1.96 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-6.55 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_lrc_usdt_usdt" title="交易量：214,653 USDT" role="row">
+																	<td class="no-wrap" data-trade="LRC_USDT">
+																		<span class="icon-16 icon-16-lrc"></span>
+																		<span class="bizhong_en" line_id="market_lrc_usdt_usdt">LRC</span> <span title="Loopring">Loopring</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.2848 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-6.65 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_bcd_usdt_usdt" title="交易量：148,367 USDT" role="row">
+																	<td class="no-wrap" data-trade="BCD_USDT">
+																		<span class="icon-16 icon-16-bcd"></span>
+																		<span class="bizhong_en" line_id="market_bcd_usdt_usdt">BCD</span> <span title="比特币钻石">比特币钻石</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">51.56 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-6.72 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_btg_usdt_usdt" title="交易量：99,084 USDT" role="row">
+																	<td class="no-wrap" data-trade="BTG_USDT">
+																		<span class="icon-16 icon-16-btg"></span>
+																		<span class="bizhong_en" line_id="market_btg_usdt_usdt">BTG</span> <span title="BTG">BTG</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">259.74 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-7.04 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_gas_usdt_usdt" title="交易量：22,749 USDT" role="row">
+																	<td class="no-wrap" data-trade="GAS_USDT">
+																		<span class="icon-16 icon-16-gas"></span>
+																		<span class="bizhong_en" line_id="market_gas_usdt_usdt">GAS</span> <span title="小蚁Gas">小蚁Gas</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">27.01 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-7.09 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_mds_usdt_usdt" title="交易量：220,508 USDT" role="row">
+																	<td class="no-wrap" data-trade="MDS_USDT">
+																		<span class="icon-16 icon-16-mds"></span>
+																		<span class="bizhong_en" line_id="market_mds_usdt_usdt">MDS</span> <span title="MediShares">MediShares</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0464 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-7.39 %</font>
+																	</td>
+																</tr>
+																<tr class="coin-selected odd" id="market_eth_usdt_usdt" title="交易量：12,899,735 USDT" role="row">
+																	<td class="no-wrap" data-trade="ETH_USDT">
+																		<span class="icon-16 icon-16-eth"></span>
+																		<span class="bizhong_en" line_id="market_eth_usdt_usdt">ETH</span> <span title="以太币">以太币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">656.00 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-8.25 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_dpy_usdt_usdt" title="交易量：31,039 USDT" role="row">
+																	<td class="no-wrap" data-trade="DPY_USDT">
+																		<span class="icon-16 icon-16-dpy"></span>
+																		<span class="bizhong_en" line_id="market_dpy_usdt_usdt">DPY</span> <span title="Delphy">Delphy</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">2.19 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-8.87 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_rcn_usdt_usdt" title="交易量：103,556 USDT" role="row">
+																	<td class="no-wrap" data-trade="RCN_USDT">
+																		<span class="icon-16 icon-16-rcn"></span>
+																		<span class="bizhong_en" line_id="market_rcn_usdt_usdt">RCN</span> <span title="Ripio">Ripio</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.1850 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-8.91 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_hsr_usdt_usdt" title="交易量：2,045,272 USDT" role="row">
+																	<td class="no-wrap" data-trade="HSR_USDT">
+																		<span class="icon-16 icon-16-hsr"></span>
+																		<span class="bizhong_en" line_id="market_hsr_usdt_usdt">HSR</span> <span title="HShare">HShare</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">26.85 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-9.17 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_cdt_usdt_usdt" title="交易量：146,674 USDT" role="row">
+																	<td class="no-wrap" data-trade="CDT_USDT">
+																		<span class="icon-16 icon-16-cdt"></span>
+																		<span class="bizhong_en" line_id="market_cdt_usdt_usdt">CDT</span> <span title="CoinDash">CoinDash</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0804 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-9.36 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_mda_usdt_usdt" title="交易量：176,414 USDT" role="row">
+																	<td class="no-wrap" data-trade="MDA_USDT">
+																		<span class="icon-16 icon-16-mda"></span>
+																		<span class="bizhong_en" line_id="market_mda_usdt_usdt">MDA</span> <span title="Moeda">Moeda</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">1.90 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-9.38 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_snt_usdt_usdt" title="交易量：447,474 USDT" role="row">
+																	<td class="no-wrap" data-trade="SNT_USDT">
+																		<span class="icon-16 icon-16-snt"></span>
+																		<span class="bizhong_en" line_id="market_snt_usdt_usdt">SNT</span> <span title="Status">Status</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.1387 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-9.46 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_llt_usdt_usdt" title="交易量：443,991 USDT" role="row">
+																	<td class="no-wrap" data-trade="LLT_USDT">
+																		<span class="icon-16 icon-16-llt"></span>
+																		<span class="bizhong_en" line_id="market_llt_usdt_usdt">LLT</span> <span title="流量币">流量币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.3155 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-9.55 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_xmr_usdt_usdt" title="交易量：132,118 USDT" role="row">
+																	<td class="no-wrap" data-trade="XMR_USDT">
+																		<span class="icon-16 icon-16-xmr"></span>
+																		<span class="bizhong_en" line_id="market_xmr_usdt_usdt">XMR</span> <span title="门罗币">门罗币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">344.03 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-9.69 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_zsc_usdt_usdt" title="交易量：204,651 USDT" role="row">
+																	<td class="no-wrap" data-trade="ZSC_USDT">
+																		<span class="icon-16 icon-16-zsc"></span>
+																		<span class="bizhong_en" line_id="market_zsc_usdt_usdt">ZSC</span> <span title="宙斯盾">宙斯盾</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0286 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-9.78 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_fun_usdt_usdt" title="交易量：33,217 USDT" role="row">
+																	<td class="no-wrap" data-trade="FUN_USDT">
+																		<span class="icon-16 icon-16-fun"></span>
+																		<span class="bizhong_en" line_id="market_fun_usdt_usdt">FUN</span> <span title="FunFair">FunFair</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0487 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-9.81 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_btm_usdt_usdt" title="交易量：6,766,134 USDT" role="row">
+																	<td class="no-wrap" data-trade="BTM_USDT">
+																		<span class="icon-16 icon-16-btm"></span>
+																		<span class="bizhong_en" line_id="market_btm_usdt_usdt">BTM</span> <span title="比原链">比原链</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.3334 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-9.89 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_mana_usdt_usdt" title="交易量：330,839 USDT" role="row">
+																	<td class="no-wrap" data-trade="MANA_USDT">
+																		<span class="icon-16 icon-16-mana"></span>
+																		<span class="bizhong_en" line_id="market_mana_usdt_usdt">MANA</span> <span title="Decentraland">Decentraland</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0844 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-10.12 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_smt_usdt_usdt" title="交易量：529,472 USDT" role="row">
+																	<td class="no-wrap" data-trade="SMT_USDT">
+																		<span class="icon-16 icon-16-smt"></span>
+																		<span class="bizhong_en" line_id="market_smt_usdt_usdt">SMT</span> <span title="SmartMesh">SmartMesh</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0398 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-10.16 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_eos_usdt_usdt" title="交易量：6,362,198 USDT" role="row">
+																	<td class="no-wrap" data-trade="EOS_USDT">
+																		<span class="icon-16 icon-16-eos"></span>
+																		<span class="bizhong_en" line_id="market_eos_usdt_usdt">EOS</span> <span title="EOS">EOS</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">8.35 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-10.30 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_qsp_usdt_usdt" title="交易量：23,520 USDT" role="row">
+																	<td class="no-wrap" data-trade="QSP_USDT">
+																		<span class="icon-16 icon-16-qsp"></span>
+																		<span class="bizhong_en" line_id="market_qsp_usdt_usdt">QSP</span> <span title="Quantstamp">Quantstamp</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.1405 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-10.45 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_ae_usdt_usdt" title="交易量：1,150,321 USDT" role="row">
+																	<td class="no-wrap" data-trade="AE_USDT">
+																		<span class="icon-16 icon-16-ae"></span>
+																		<span class="bizhong_en" line_id="market_ae_usdt_usdt">AE</span> <span title="Aeternity">Aeternity</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">1.21 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-10.45 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_god_usdt_usdt" title="交易量：86,904 USDT" role="row">
+																	<td class="no-wrap" data-trade="GOD_USDT">
+																		<span class="icon-16 icon-16-god"></span>
+																		<span class="bizhong_en" line_id="market_god_usdt_usdt">GOD</span> <span title="比特币上帝">比特币上帝</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">490.32 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-10.74 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_lsk_usdt_usdt" title="交易量：5,508 USDT" role="row">
+																	<td class="no-wrap" data-trade="LSK_USDT">
+																		<span class="icon-16 icon-16-lsk"></span>
+																		<span class="bizhong_en" line_id="market_lsk_usdt_usdt">LSK</span> <span title="Lisk">Lisk</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">19.51 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-11.32 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_data_usdt_usdt" title="交易量：67,900 USDT" role="row">
+																	<td class="no-wrap" data-trade="DATA_USDT">
+																		<span class="icon-16 icon-16-data"></span>
+																		<span class="bizhong_en" line_id="market_data_usdt_usdt">DATA</span> <span title="Streamr">Streamr</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.2054 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-12.78 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_zrx_usdt_usdt" title="交易量：12,813 USDT" role="row">
+																	<td class="no-wrap" data-trade="ZRX_USDT">
+																		<span class="icon-16 icon-16-zrx"></span>
+																		<span class="bizhong_en" line_id="market_zrx_usdt_usdt">ZRX</span> <span title="0x项目">0x项目</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.4650 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-12.81 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_etc_usdt_usdt" title="交易量：2,985,256 USDT" role="row">
+																	<td class="no-wrap" data-trade="ETC_USDT">
+																		<span class="icon-16 icon-16-etc"></span>
+																		<span class="bizhong_en" line_id="market_etc_usdt_usdt">ETC</span> <span title="以太经典">以太经典</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">28.42 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-12.96 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_ink_usdt_usdt" title="交易量：636,102 USDT" role="row">
+																	<td class="no-wrap" data-trade="INK_USDT">
+																		<span class="icon-16 icon-16-ink"></span>
+																		<span class="bizhong_en" line_id="market_ink_usdt_usdt">INK</span> <span title="Ink">Ink</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.5719 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-13.35 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_storj_usdt_usdt" title="交易量：105,886 USDT" role="row">
+																	<td class="no-wrap" data-trade="STORJ_USDT">
+																		<span class="icon-16 icon-16-storj"></span>
+																		<span class="bizhong_en" line_id="market_storj_usdt_usdt">STORJ</span> <span title="Storj">Storj</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">1.12 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-13.88 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_trx_usdt_usdt" title="交易量：1,845,644 USDT" role="row">
+																	<td class="no-wrap" data-trade="TRX_USDT">
+																		<span class="icon-16 icon-16-trx"></span>
+																		<span class="bizhong_en" line_id="market_trx_usdt_usdt">TRX</span> <span title="波场">波场</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0350 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-16.31 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_tsl_usdt_usdt" title="交易量：348,431 USDT" role="row">
+																	<td class="no-wrap" data-trade="TSL_USDT">
+																		<span class="icon-16 icon-16-tsl"></span>
+																		<span class="bizhong_en" line_id="market_tsl_usdt_usdt">TSL</span> <span title="Energo">Energo</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.1504 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-18.26 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_bifi_usdt_usdt" title="交易量：1,044,558 USDT" role="row">
+																	<td class="no-wrap" data-trade="BIFI_USDT">
+																		<span class="icon-16 icon-16-bifi"></span>
+																		<span class="bizhong_en" line_id="market_bifi_usdt_usdt">BIFI</span> <span title="BitcoinFile">BitcoinFile</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.8104 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="green" id="leftbarupdn">-22.82 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_nas_usdt_usdt" title="交易量：0 USDT" role="row">
+																	<td class="no-wrap" data-trade="NAS_USDT">
+																		<span class="icon-16 icon-16-nas"></span>
+																		<span class="bizhong_en" line_id="market_nas_usdt_usdt">NAS</span> <span title="星云链">星云链</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">19.90 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight sorting_1">
+																		<font color="red" id="leftbarupdn">+0.00 %</font>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</td>
+												<td id="marketlist_container_btc" class="no-wrap alignRight" style="display: none;">
+													<div id="marketlist_btc_wrapper" class="dataTables_wrapper no-footer">
+														<table class="dataTable no-footer" id="marketlist_btc" role="grid">
+															<thead>
+																<tr style="height:40px" role="row">
+																	<th class="no-wrap sortable sorting" tabindex="0" aria-controls="marketlist_btc" rowspan="1" colspan="1" aria-label="币种: activate to sort column descending"><b>币种</b></th>
+																	<th class="no-wrap sortable alignRight sorting" tabindex="0" aria-controls="marketlist_btc" rowspan="1" colspan="1" aria-label="价格(BTC): activate to sort column descending">价格<span id="leftPriceType">(BTC)</span></th>
+																	<th class="no-wrap sortable alignRight sorting" id="leftbarupdntop" tabindex="0" aria-controls="marketlist_btc" rowspan="1" colspan="1" aria-label="日涨跌: activate to sort column descending">日涨跌</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr class="odd" id="market_ink_btc_btc" title="交易量：159.29 BTC" role="row">
+																	<td class="no-wrap" data-trade="INK_BTC">
+																		<span class="icon-16 icon-16-ink"></span>
+																		<span class="bizhong_en" line_id="market_ink_btc_btc">INK</span> <span title="Ink">Ink</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0000421 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-11.49 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_bch_btc_btc" title="交易量：93.81 BTC" role="row">
+																	<td class="no-wrap" data-trade="BCH_BTC">
+																		<span class="icon-16 icon-16-bch"></span>
+																		<span class="bizhong_en" line_id="market_bch_btc_btc">BCH</span> <span title="BCH(原BCC)">BCH(原BCC)</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.1872 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+2.29 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_eth_btc_btc" title="交易量：85.17 BTC" role="row">
+																	<td class="no-wrap" data-trade="ETH_BTC">
+																		<span class="icon-16 icon-16-eth"></span>
+																		<span class="bizhong_en" line_id="market_eth_btc_btc">ETH</span> <span title="以太币">以太币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0487 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-1.97 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_etc_btc_btc" title="交易量：51.02 BTC" role="row">
+																	<td class="no-wrap" data-trade="ETC_BTC">
+																		<span class="icon-16 icon-16-etc"></span>
+																		<span class="bizhong_en" line_id="market_etc_btc_btc">ETC</span> <span title="以太经典">以太经典</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.002111 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-5.76 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_eos_btc_btc" title="交易量：50.39 BTC" role="row">
+																	<td class="no-wrap" data-trade="EOS_BTC">
+																		<span class="icon-16 icon-16-eos"></span>
+																		<span class="bizhong_en" line_id="market_eos_btc_btc">EOS</span> <span title="EOS">EOS</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.000625 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-5.45 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_doge_btc_btc" title="交易量：46.27 BTC" role="row">
+																	<td class="no-wrap" data-trade="DOGE_BTC">
+																		<span class="icon-16 icon-16-doge"></span>
+																		<span class="bizhong_en" line_id="market_doge_btc_btc">DOGE</span> <span title="狗狗币">狗狗币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.00000046 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+4.55 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_qtum_btc_btc" title="交易量：37.57 BTC" role="row">
+																	<td class="no-wrap" data-trade="QTUM_BTC">
+																		<span class="icon-16 icon-16-qtum"></span>
+																		<span class="bizhong_en" line_id="market_qtum_btc_btc">QTUM</span> <span title="量子链">量子链</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.003184 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+0.13 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_ltc_btc_btc" title="交易量：37.38 BTC" role="row">
+																	<td class="no-wrap" data-trade="LTC_BTC">
+																		<span class="icon-16 icon-16-ltc"></span>
+																		<span class="bizhong_en" line_id="market_ltc_btc_btc">LTC</span> <span title="莱特币">莱特币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0192 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+1.38 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_ada_btc_btc" title="交易量：16.96 BTC" role="row">
+																	<td class="no-wrap" data-trade="ADA_BTC">
+																		<span class="icon-16 icon-16-ada"></span>
+																		<span class="bizhong_en" line_id="market_ada_btc_btc">ADA</span> <span title="艾达币">艾达币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0000415 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+34.72 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_xrp_btc_btc" title="交易量：14.75 BTC" role="row">
+																	<td class="no-wrap" data-trade="XRP_BTC">
+																		<span class="icon-16 icon-16-xrp"></span>
+																		<span class="bizhong_en" line_id="market_xrp_btc_btc">XRP</span> <span title="瑞波币">瑞波币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0000832 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+4.79 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_bifi_btc_btc" title="交易量：14.74 BTC" role="row">
+																	<td class="no-wrap" data-trade="BIFI_BTC">
+																		<span class="icon-16 icon-16-bifi"></span>
+																		<span class="bizhong_en" line_id="market_bifi_btc_btc">BIFI</span> <span title="BitcoinFile">BitcoinFile</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0000580 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-19.63 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_hsr_btc_btc" title="交易量：12.74 BTC" role="row">
+																	<td class="no-wrap" data-trade="HSR_BTC">
+																		<span class="icon-16 icon-16-hsr"></span>
+																		<span class="bizhong_en" line_id="market_hsr_btc_btc">HSR</span> <span title="HShare">HShare</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.002119 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+0.91 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_qash_btc_btc" title="交易量：11.04 BTC" role="row">
+																	<td class="no-wrap" data-trade="QASH_BTC">
+																		<span class="icon-16 icon-16-qash"></span>
+																		<span class="bizhong_en" line_id="market_qash_btc_btc">QASH</span> <span title="LIQUID">LIQUID</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0000576 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-4.98 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_snt_btc_btc" title="交易量：10.87 BTC" role="row">
+																	<td class="no-wrap" data-trade="SNT_BTC">
+																		<span class="icon-16 icon-16-snt"></span>
+																		<span class="bizhong_en" line_id="market_snt_btc_btc">SNT</span> <span title="Status">Status</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0000103 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-5.50 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_zec_btc_btc" title="交易量：10.40 BTC" role="row">
+																	<td class="no-wrap" data-trade="ZEC_BTC">
+																		<span class="icon-16 icon-16-zec"></span>
+																		<span class="bizhong_en" line_id="market_zec_btc_btc">ZEC</span> <span title="ZCash">ZCash</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0380 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+5.26 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_dash_btc_btc" title="交易量：6.73 BTC" role="row">
+																	<td class="no-wrap" data-trade="DASH_BTC">
+																		<span class="icon-16 icon-16-dash"></span>
+																		<span class="bizhong_en" line_id="market_dash_btc_btc">DASH</span> <span title="达世币">达世币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0825 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-0.28 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_bcx_btc_btc" title="交易量：6.34 BTC" role="row">
+																	<td class="no-wrap" data-trade="BCX_BTC">
+																		<span class="icon-16 icon-16-bcx"></span>
+																		<span class="bizhong_en" line_id="market_bcx_btc_btc">BCX</span> <span title="比特无限">比特无限</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0000049 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-0.61 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_iota_btc_btc" title="交易量：6.21 BTC" role="row">
+																	<td class="no-wrap" data-trade="IOTA_BTC">
+																		<span class="icon-16 icon-16-iota"></span>
+																		<span class="bizhong_en" line_id="market_iota_btc_btc">IOTA</span> <span title="IOTA">IOTA</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.000278 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+6.36 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_btg_btc_btc" title="交易量：5.94 BTC" role="row">
+																	<td class="no-wrap" data-trade="BTG_BTC">
+																		<span class="icon-16 icon-16-btg"></span>
+																		<span class="bizhong_en" line_id="market_btg_btc_btc">BTG</span> <span title="BTG">BTG</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0192 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-3.03 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_lrc_btc_btc" title="交易量：5.81 BTC" role="row">
+																	<td class="no-wrap" data-trade="LRC_BTC">
+																		<span class="icon-16 icon-16-lrc"></span>
+																		<span class="bizhong_en" line_id="market_lrc_btc_btc">LRC</span> <span title="Loopring">Loopring</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0000218 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-0.46 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_pay_btc_btc" title="交易量：4.55 BTC" role="row">
+																	<td class="no-wrap" data-trade="PAY_BTC">
+																		<span class="icon-16 icon-16-pay"></span>
+																		<span class="bizhong_en" line_id="market_pay_btc_btc">PAY</span> <span title="TenX">TenX</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.000230 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+6.48 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_neo_btc_btc" title="交易量：4.36 BTC" role="row">
+																	<td class="no-wrap" data-trade="NEO_BTC">
+																		<span class="icon-16 icon-16-neo"></span>
+																		<span class="bizhong_en" line_id="market_neo_btc_btc">NEO</span> <span title="小蚁Neo">小蚁Neo</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.004300 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+4.62 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_xmr_btc_btc" title="交易量：4.35 BTC" role="row">
+																	<td class="no-wrap" data-trade="XMR_BTC">
+																		<span class="icon-16 icon-16-xmr"></span>
+																		<span class="bizhong_en" line_id="market_xmr_btc_btc">XMR</span> <span title="门罗币">门罗币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0286 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+8.33 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_omg_btc_btc" title="交易量：2.85 BTC" role="row">
+																	<td class="no-wrap" data-trade="OMG_BTC">
+																		<span class="icon-16 icon-16-omg"></span>
+																		<span class="bizhong_en" line_id="market_omg_btc_btc">OMG</span> <span title="OmiseGo">OmiseGo</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.001008 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+3.49 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_lsk_btc_btc" title="交易量：2.63 BTC" role="row">
+																	<td class="no-wrap" data-trade="LSK_BTC">
+																		<span class="icon-16 icon-16-lsk"></span>
+																		<span class="bizhong_en" line_id="market_lsk_btc_btc">LSK</span> <span title="Lisk">Lisk</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.001478 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-7.62 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_god_btc_btc" title="交易量：2.44 BTC" role="row">
+																	<td class="no-wrap" data-trade="GOD_BTC">
+																		<span class="icon-16 icon-16-god"></span>
+																		<span class="bizhong_en" line_id="market_god_btc_btc">GOD</span> <span title="比特币上帝">比特币上帝</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0329 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-22.60 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_storj_btc_btc" title="交易量：2.40 BTC" role="row">
+																	<td class="no-wrap" data-trade="STORJ_BTC">
+																		<span class="icon-16 icon-16-storj"></span>
+																		<span class="bizhong_en" line_id="market_storj_btc_btc">STORJ</span> <span title="Storj">Storj</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0000890 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-4.91 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_waves_btc_btc" title="交易量：2.38 BTC" role="row">
+																	<td class="no-wrap" data-trade="WAVES_BTC">
+																		<span class="icon-16 icon-16-waves"></span>
+																		<span class="bizhong_en" line_id="market_waves_btc_btc">WAVES</span> <span title="波币">波币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.000949 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+1.93 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_bat_btc_btc" title="交易量：2.32 BTC" role="row">
+																	<td class="no-wrap" data-trade="BAT_BTC">
+																		<span class="icon-16 icon-16-bat"></span>
+																		<span class="bizhong_en" line_id="market_bat_btc_btc">BAT</span> <span title="注意力币">注意力币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0000233 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+10.95 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_bcd_btc_btc" title="交易量：2.18 BTC" role="row">
+																	<td class="no-wrap" data-trade="BCD_BTC">
+																		<span class="icon-16 icon-16-bcd"></span>
+																		<span class="bizhong_en" line_id="market_bcd_btc_btc">BCD</span> <span title="比特币钻石">比特币钻石</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.003306 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+4.75 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_btf_btc_btc" title="交易量：1.03 BTC" role="row">
+																	<td class="no-wrap" data-trade="BTF_BTC">
+																		<span class="icon-16 icon-16-btf"></span>
+																		<span class="bizhong_en" line_id="market_btf_btc_btc">BTF</span> <span title="比特信仰">比特信仰</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0115 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+1.77 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_zrx_btc_btc" title="交易量：0.62 BTC" role="row">
+																	<td class="no-wrap" data-trade="ZRX_BTC">
+																		<span class="icon-16 icon-16-zrx"></span>
+																		<span class="bizhong_en" line_id="market_zrx_btc_btc">ZRX</span> <span title="0x项目">0x项目</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0000368 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+1.66 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_sbtc_btc_btc" title="交易量：0.50 BTC" role="row">
+																	<td class="no-wrap" data-trade="SBTC_BTC">
+																		<span class="icon-16 icon-16-sbtc"></span>
+																		<span class="bizhong_en" line_id="market_sbtc_btc_btc">SBTC</span> <span title="超级比特币">超级比特币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0177 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+1.03 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_powr_btc_btc" title="交易量：0.39 BTC" role="row">
+																	<td class="no-wrap" data-trade="POWR_BTC">
+																		<span class="icon-16 icon-16-powr"></span>
+																		<span class="bizhong_en" line_id="market_powr_btc_btc">POWR</span> <span title="PowerLedger">PowerLedger</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0000607 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-6.66 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_gas_btc_btc" title="交易量：0.10 BTC" role="row">
+																	<td class="no-wrap" data-trade="GAS_BTC">
+																		<span class="icon-16 icon-16-gas"></span>
+																		<span class="bizhong_en" line_id="market_gas_btc_btc">GAS</span> <span title="小蚁Gas">小蚁Gas</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.001710 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-20.17 %</font>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</td>
+												<td id="marketlist_container_eth" class="no-wrap alignRight" style="display: none;">
+													<div id="marketlist_eth_wrapper" class="dataTables_wrapper no-footer">
+														<table class="dataTable no-footer" id="marketlist_eth" role="grid">
+															<thead>
+																<tr style="height:40px" role="row">
+																	<th class="no-wrap sortable sorting" tabindex="0" aria-controls="marketlist_eth" rowspan="1" colspan="1" aria-label="币种: activate to sort column descending"><b>币种</b></th>
+																	<th class="no-wrap sortable alignRight sorting" tabindex="0" aria-controls="marketlist_eth" rowspan="1" colspan="1" aria-label="价格(ETH): activate to sort column descending">价格<span id="leftPriceType">(ETH)</span></th>
+																	<th class="no-wrap sortable alignRight sorting" id="leftbarupdntop" tabindex="0" aria-controls="marketlist_eth" rowspan="1" colspan="1" aria-label="日涨跌: activate to sort column descending">日涨跌</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr class="odd" id="market_btm_eth_eth" title="交易量：1,531.21 ETH" role="row">
+																	<td class="no-wrap" data-trade="BTM_ETH">
+																		<span class="icon-16 icon-16-btm"></span>
+																		<span class="bizhong_en" line_id="market_btm_eth_eth">BTM</span> <span title="比原链">比原链</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.000511 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-1.73 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_eos_eth_eth" title="交易量：967.80 ETH" role="row">
+																	<td class="no-wrap" data-trade="EOS_ETH">
+																		<span class="icon-16 icon-16-eos"></span>
+																		<span class="bizhong_en" line_id="market_eos_eth_eth">EOS</span> <span title="EOS">EOS</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0126 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-5.82 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_ae_eth_eth" title="交易量：959.48 ETH" role="row">
+																	<td class="no-wrap" data-trade="AE_ETH">
+																		<span class="icon-16 icon-16-ae"></span>
+																		<span class="bizhong_en" line_id="market_ae_eth_eth">AE</span> <span title="Aeternity">Aeternity</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.001841 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-4.36 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_trx_eth_eth" title="交易量：596.54 ETH" role="row">
+																	<td class="no-wrap" data-trade="TRX_ETH">
+																		<span class="icon-16 icon-16-trx"></span>
+																		<span class="bizhong_en" line_id="market_trx_eth_eth">TRX</span> <span title="波场">波场</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0000523 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-12.42 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_mds_eth_eth" title="交易量：485.64 ETH" role="row">
+																	<td class="no-wrap" data-trade="MDS_ETH">
+																		<span class="icon-16 icon-16-mds"></span>
+																		<span class="bizhong_en" line_id="market_mds_eth_eth">MDS</span> <span title="MediShares">MediShares</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0000709 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-3.93 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_qtum_eth_eth" title="交易量：445.30 ETH" role="row">
+																	<td class="no-wrap" data-trade="QTUM_ETH">
+																		<span class="icon-16 icon-16-qtum"></span>
+																		<span class="bizhong_en" line_id="market_qtum_eth_eth">QTUM</span> <span title="量子链">量子链</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0650 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-4.93 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_qash_eth_eth" title="交易量：440.26 ETH" role="row">
+																	<td class="no-wrap" data-trade="QASH_ETH">
+																		<span class="icon-16 icon-16-qash"></span>
+																		<span class="bizhong_en" line_id="market_qash_eth_eth">QASH</span> <span title="LIQUID">LIQUID</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.001170 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-0.59 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_smt_eth_eth" title="交易量：336.28 ETH" role="row">
+																	<td class="no-wrap" data-trade="SMT_ETH">
+																		<span class="icon-16 icon-16-smt"></span>
+																		<span class="bizhong_en" line_id="market_smt_eth_eth">SMT</span> <span title="SmartMesh">SmartMesh</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0000600 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-3.23 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_snt_eth_eth" title="交易量：334.22 ETH" role="row">
+																	<td class="no-wrap" data-trade="SNT_ETH">
+																		<span class="icon-16 icon-16-snt"></span>
+																		<span class="bizhong_en" line_id="market_snt_eth_eth">SNT</span> <span title="Status">Status</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.000209 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-6.29 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_etc_eth_eth" title="交易量：323.68 ETH" role="row">
+																	<td class="no-wrap" data-trade="ETC_ETH">
+																		<span class="icon-16 icon-16-etc"></span>
+																		<span class="bizhong_en" line_id="market_etc_eth_eth">ETC</span> <span title="以太经典">以太经典</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0431 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-6.39 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_bot_eth_eth" title="交易量：320.22 ETH" role="row">
+																	<td class="no-wrap" data-trade="BOT_ETH">
+																		<span class="icon-16 icon-16-bot"></span>
+																		<span class="bizhong_en" line_id="market_bot_eth_eth">BOT</span> <span title="菩提">菩提</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.001321 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-4.14 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_hsr_eth_eth" title="交易量：255.42 ETH" role="row">
+																	<td class="no-wrap" data-trade="HSR_ETH">
+																		<span class="icon-16 icon-16-hsr"></span>
+																		<span class="bizhong_en" line_id="market_hsr_eth_eth">HSR</span> <span title="HShare">HShare</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0400 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-8.71 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_zsc_eth_eth" title="交易量：166.18 ETH" role="row">
+																	<td class="no-wrap" data-trade="ZSC_ETH">
+																		<span class="icon-16 icon-16-zsc"></span>
+																		<span class="bizhong_en" line_id="market_zsc_eth_eth">ZSC</span> <span title="宙斯盾">宙斯盾</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0000420 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-6.67 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_ink_eth_eth" title="交易量：137.16 ETH" role="row">
+																	<td class="no-wrap" data-trade="INK_ETH">
+																		<span class="icon-16 icon-16-ink"></span>
+																		<span class="bizhong_en" line_id="market_ink_eth_eth">INK</span> <span title="Ink">Ink</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.000875 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-7.70 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_lrc_eth_eth" title="交易量：134.86 ETH" role="row">
+																	<td class="no-wrap" data-trade="LRC_ETH">
+																		<span class="icon-16 icon-16-lrc"></span>
+																		<span class="bizhong_en" line_id="market_lrc_eth_eth">LRC</span> <span title="Loopring">Loopring</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.000444 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-0.67 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_pst_eth_eth" title="交易量：125.31 ETH" role="row">
+																	<td class="no-wrap" data-trade="PST_ETH">
+																		<span class="icon-16 icon-16-pst"></span>
+																		<span class="bizhong_en" line_id="market_pst_eth_eth">PST</span> <span title="Primas">Primas</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.000735 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+0.07 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_llt_eth_eth" title="交易量：124.98 ETH" role="row">
+																	<td class="no-wrap" data-trade="LLT_ETH">
+																		<span class="icon-16 icon-16-llt"></span>
+																		<span class="bizhong_en" line_id="market_llt_eth_eth">LLT</span> <span title="流量币">流量币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.000478 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-2.65 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_rdn_eth_eth" title="交易量：103.30 ETH" role="row">
+																	<td class="no-wrap" data-trade="RDN_ETH">
+																		<span class="icon-16 icon-16-rdn"></span>
+																		<span class="bizhong_en" line_id="market_rdn_eth_eth">RDN</span> <span title="雷电网络">雷电网络</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.005180 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+2.64 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_data_eth_eth" title="交易量：101.51 ETH" role="row">
+																	<td class="no-wrap" data-trade="DATA_ETH">
+																		<span class="icon-16 icon-16-data"></span>
+																		<span class="bizhong_en" line_id="market_data_eth_eth">DATA</span> <span title="Streamr">Streamr</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.000315 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-4.55 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_pay_eth_eth" title="交易量：95.55 ETH" role="row">
+																	<td class="no-wrap" data-trade="PAY_ETH">
+																		<span class="icon-16 icon-16-pay"></span>
+																		<span class="bizhong_en" line_id="market_pay_eth_eth">PAY</span> <span title="TenX">TenX</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.004652 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+5.80 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_dpy_eth_eth" title="交易量：87.35 ETH" role="row">
+																	<td class="no-wrap" data-trade="DPY_ETH">
+																		<span class="icon-16 icon-16-dpy"></span>
+																		<span class="bizhong_en" line_id="market_dpy_eth_eth">DPY</span> <span title="Delphy">Delphy</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.003253 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-7.00 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_mana_eth_eth" title="交易量：78.05 ETH" role="row">
+																	<td class="no-wrap" data-trade="MANA_ETH">
+																		<span class="icon-16 icon-16-mana"></span>
+																		<span class="bizhong_en" line_id="market_mana_eth_eth">MANA</span> <span title="Decentraland">Decentraland</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.000130 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-3.70 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_mda_eth_eth" title="交易量：76.03 ETH" role="row">
+																	<td class="no-wrap" data-trade="MDA_ETH">
+																		<span class="icon-16 icon-16-mda"></span>
+																		<span class="bizhong_en" line_id="market_mda_eth_eth">MDA</span> <span title="Moeda">Moeda</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.002797 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-3.52 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_cdt_eth_eth" title="交易量：66.20 ETH" role="row">
+																	<td class="no-wrap" data-trade="CDT_ETH">
+																		<span class="icon-16 icon-16-cdt"></span>
+																		<span class="bizhong_en" line_id="market_cdt_eth_eth">CDT</span> <span title="CoinDash">CoinDash</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.000126 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+1.61 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_link_eth_eth" title="交易量：64.60 ETH" role="row">
+																	<td class="no-wrap" data-trade="LINK_ETH">
+																		<span class="icon-16 icon-16-link"></span>
+																		<span class="bizhong_en" line_id="market_link_eth_eth">LINK</span> <span title="ChainLink">ChainLink</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.000750 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+20.77 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_ven_eth_eth" title="交易量：62.88 ETH" role="row">
+																	<td class="no-wrap" data-trade="VEN_ETH">
+																		<span class="icon-16 icon-16-ven"></span>
+																		<span class="bizhong_en" line_id="market_ven_eth_eth">VEN</span> <span title="唯链">唯链</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.001908 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+5.07 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_omg_eth_eth" title="交易量：49.72 ETH" role="row">
+																	<td class="no-wrap" data-trade="OMG_ETH">
+																		<span class="icon-16 icon-16-omg"></span>
+																		<span class="bizhong_en" line_id="market_omg_eth_eth">OMG</span> <span title="OmiseGo">OmiseGo</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0207 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+3.51 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_tnt_eth_eth" title="交易量：48.00 ETH" role="row">
+																	<td class="no-wrap" data-trade="TNT_ETH">
+																		<span class="icon-16 icon-16-tnt"></span>
+																		<span class="bizhong_en" line_id="market_tnt_eth_eth">TNT</span> <span title="Tierion">Tierion </span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.000176 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-2.76 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_storj_eth_eth" title="交易量：47.73 ETH" role="row">
+																	<td class="no-wrap" data-trade="STORJ_ETH">
+																		<span class="icon-16 icon-16-storj"></span>
+																		<span class="bizhong_en" line_id="market_storj_eth_eth">STORJ</span> <span title="Storj">Storj</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.001836 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-2.24 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_bcdn_eth_eth" title="交易量：41.61 ETH" role="row">
+																	<td class="no-wrap" data-trade="BCDN_ETH">
+																		<span class="icon-16 icon-16-bcdn"></span>
+																		<span class="bizhong_en" line_id="market_bcdn_eth_eth">BCDN</span> <span title="BlockCDN">BlockCDN</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.000191 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+12.35 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_qbt_eth_eth" title="交易量：37.35 ETH" role="row">
+																	<td class="no-wrap" data-trade="QBT_ETH">
+																		<span class="icon-16 icon-16-qbt"></span>
+																		<span class="bizhong_en" line_id="market_qbt_eth_eth">QBT</span> <span title="Qbao">Qbao</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.001009 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-4.54 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_cvc_eth_eth" title="交易量：35.75 ETH" role="row">
+																	<td class="no-wrap" data-trade="CVC_ETH">
+																		<span class="icon-16 icon-16-cvc"></span>
+																		<span class="bizhong_en" line_id="market_cvc_eth_eth">CVC</span> <span title="Civic">Civic</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.000904 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+15.60 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_stx_eth_eth" title="交易量：32.11 ETH" role="row">
+																	<td class="no-wrap" data-trade="STX_ETH">
+																		<span class="icon-16 icon-16-stx"></span>
+																		<span class="bizhong_en" line_id="market_stx_eth_eth">STX</span> <span title="Stox">Stox</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.000800 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-5.10 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_knc_eth_eth" title="交易量：30.04 ETH" role="row">
+																	<td class="no-wrap" data-trade="KNC_ETH">
+																		<span class="icon-16 icon-16-knc"></span>
+																		<span class="bizhong_en" line_id="market_knc_eth_eth">KNC</span> <span title="Kyber">Kyber</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.002935 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+4.34 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_kick_eth_eth" title="交易量：29.81 ETH" role="row">
+																	<td class="no-wrap" data-trade="KICK_ETH">
+																		<span class="icon-16 icon-16-kick"></span>
+																		<span class="bizhong_en" line_id="market_kick_eth_eth">KICK</span> <span title="KickCoin">KickCoin</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0000747 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-0.27 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_rcn_eth_eth" title="交易量：28.79 ETH" role="row">
+																	<td class="no-wrap" data-trade="RCN_ETH">
+																		<span class="icon-16 icon-16-rcn"></span>
+																		<span class="bizhong_en" line_id="market_rcn_eth_eth">RCN</span> <span title="Ripio">Ripio</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.000270 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-6.90 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_med_eth_eth" title="交易量：25.05 ETH" role="row">
+																	<td class="no-wrap" data-trade="MED_ETH">
+																		<span class="icon-16 icon-16-med"></span>
+																		<span class="bizhong_en" line_id="market_med_eth_eth">MED</span> <span title="MediBloc">MediBloc</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0000310 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+14.81 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_qsp_eth_eth" title="交易量：20.10 ETH" role="row">
+																	<td class="no-wrap" data-trade="QSP_ETH">
+																		<span class="icon-16 icon-16-qsp"></span>
+																		<span class="bizhong_en" line_id="market_qsp_eth_eth">QSP</span> <span title="Quantstamp">Quantstamp</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.000203 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-7.73 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_rep_eth_eth" title="交易量：18.27 ETH" role="row">
+																	<td class="no-wrap" data-trade="REP_ETH">
+																		<span class="icon-16 icon-16-rep"></span>
+																		<span class="bizhong_en" line_id="market_rep_eth_eth">REP</span> <span title="Augur">Augur</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.1200 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+23.14 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_fun_eth_eth" title="交易量：16.74 ETH" role="row">
+																	<td class="no-wrap" data-trade="FUN_ETH">
+																		<span class="icon-16 icon-16-fun"></span>
+																		<span class="bizhong_en" line_id="market_fun_eth_eth">FUN</span> <span title="FunFair">FunFair</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0000740 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+7.25 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_powr_eth_eth" title="交易量：15.12 ETH" role="row">
+																	<td class="no-wrap" data-trade="POWR_ETH">
+																		<span class="icon-16 icon-16-powr"></span>
+																		<span class="bizhong_en" line_id="market_powr_eth_eth">POWR</span> <span title="PowerLedger">PowerLedger</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.001294 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-1.90 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_gnt_eth_eth" title="交易量：14.41 ETH" role="row">
+																	<td class="no-wrap" data-trade="GNT_ETH">
+																		<span class="icon-16 icon-16-gnt"></span>
+																		<span class="bizhong_en" line_id="market_gnt_eth_eth">GNT</span> <span title="Golem">Golem</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.000840 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+12.00 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_oax_eth_eth" title="交易量：13.84 ETH" role="row">
+																	<td class="no-wrap" data-trade="OAX_ETH">
+																		<span class="icon-16 icon-16-oax"></span>
+																		<span class="bizhong_en" line_id="market_oax_eth_eth">OAX</span> <span title="ANX">ANX</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.000798 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+5.70 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_req_eth_eth" title="交易量：12.64 ETH" role="row">
+																	<td class="no-wrap" data-trade="REQ_ETH">
+																		<span class="icon-16 icon-16-req"></span>
+																		<span class="bizhong_en" line_id="market_req_eth_eth">REQ</span> <span title="Request">Request</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.000386 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+5.46 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_dnt_eth_eth" title="交易量：9.72 ETH" role="row">
+																	<td class="no-wrap" data-trade="DNT_ETH">
+																		<span class="icon-16 icon-16-dnt"></span>
+																		<span class="bizhong_en" line_id="market_dnt_eth_eth">DNT</span> <span title="district0x">district0x</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.000133 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+27.88 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_mco_eth_eth" title="交易量：9.41 ETH" role="row">
+																	<td class="no-wrap" data-trade="MCO_ETH">
+																		<span class="icon-16 icon-16-mco"></span>
+																		<span class="bizhong_en" line_id="market_mco_eth_eth">MCO</span> <span title="Monaco">Monaco</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0222 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+4.03 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_ctr_eth_eth" title="交易量：9.09 ETH" role="row">
+																	<td class="no-wrap" data-trade="CTR_ETH">
+																		<span class="icon-16 icon-16-ctr"></span>
+																		<span class="bizhong_en" line_id="market_ctr_eth_eth">CTR</span> <span title="Centra">Centra</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.002598 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+115.07 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_zrx_eth_eth" title="交易量：8.88 ETH" role="row">
+																	<td class="no-wrap" data-trade="ZRX_ETH">
+																		<span class="icon-16 icon-16-zrx"></span>
+																		<span class="bizhong_en" line_id="market_zrx_eth_eth">ZRX</span> <span title="0x项目">0x项目</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.000679 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-9.71 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_bat_eth_eth" title="交易量：8.04 ETH" role="row">
+																	<td class="no-wrap" data-trade="BAT_ETH">
+																		<span class="icon-16 icon-16-bat"></span>
+																		<span class="bizhong_en" line_id="market_bat_eth_eth">BAT</span> <span title="注意力币">注意力币</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.000434 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+7.96 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_bnt_eth_eth" title="交易量：3.98 ETH" role="row">
+																	<td class="no-wrap" data-trade="BNT_ETH">
+																		<span class="icon-16 icon-16-bnt"></span>
+																		<span class="bizhong_en" line_id="market_bnt_eth_eth">BNT</span> <span title="Bancor">Bancor</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.006484 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+20.95 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_arn_eth_eth" title="交易量：3.88 ETH" role="row">
+																	<td class="no-wrap" data-trade="ARN_ETH">
+																		<span class="icon-16 icon-16-arn"></span>
+																		<span class="bizhong_en" line_id="market_arn_eth_eth">ARN</span> <span title="Aeron">Aeron</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.000817 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-7.89 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_rlc_eth_eth" title="交易量：0.91 ETH" role="row">
+																	<td class="no-wrap" data-trade="RLC_ETH">
+																		<span class="icon-16 icon-16-rlc"></span>
+																		<span class="bizhong_en" line_id="market_rlc_eth_eth">RLC</span> <span title="iExec">iExec</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.001099 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-0.99 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_wings_eth_eth" title="交易量：0.86 ETH" role="row">
+																	<td class="no-wrap" data-trade="WINGS_ETH">
+																		<span class="icon-16 icon-16-wings"></span>
+																		<span class="bizhong_en" line_id="market_wings_eth_eth">WINGS</span> <span title="Wings">Wings</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.001310 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+162.00 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_dgd_eth_eth" title="交易量：0.01 ETH" role="row">
+																	<td class="no-wrap" data-trade="DGD_ETH">
+																		<span class="icon-16 icon-16-dgd"></span>
+																		<span class="bizhong_en" line_id="market_dgd_eth_eth">DGD</span> <span title="DigixDAO">DigixDAO</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.2880 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+0.00 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_mkr_eth_eth" title="交易量：0.00 ETH" role="row">
+																	<td class="no-wrap" data-trade="MKR_ETH">
+																		<span class="icon-16 icon-16-mkr"></span>
+																		<span class="bizhong_en" line_id="market_mkr_eth_eth">MKR</span> <span title="MakerDAO">MakerDAO</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.00000000 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+0.00 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_nas_eth_eth" title="交易量：0.00 ETH" role="row">
+																	<td class="no-wrap" data-trade="NAS_ETH">
+																		<span class="icon-16 icon-16-nas"></span>
+																		<span class="bizhong_en" line_id="market_nas_eth_eth">NAS</span> <span title="星云链">星云链</span> </td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.00000000 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+0.00 %</font>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</td>
+												<td id="marketlist_container_new" class="no-wrap alignRight" style="display: none;">
+													<div id="marketlist_new_wrapper" class="dataTables_wrapper no-footer">
+														<table class="dataTable no-footer" id="marketlist_new" role="grid">
+															<thead>
+																<tr style="height:40px" role="row">
+																	<th class="no-wrap sortable sorting" tabindex="0" aria-controls="marketlist_new" rowspan="1" colspan="1" aria-label="币种: activate to sort column descending"><b>币种</b></th>
+																	<th class="no-wrap sortable alignRight sorting" tabindex="0" aria-controls="marketlist_new" rowspan="1" colspan="1" aria-label="价格: activate to sort column descending">价格<span id="leftPriceType"></span></th>
+																	<th class="no-wrap sortable alignRight sorting" id="leftbarupdntop" tabindex="0" aria-controls="marketlist_new" rowspan="1" colspan="1" aria-label="日涨跌: activate to sort column descending">日涨跌</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr class="odd" id="market_qbt_qtum_new" title="交易量：5,685.16 QTUM" role="row">
+																	<td class="no-wrap" data-trade="QBT_QTUM">
+																		<span class="icon-16 icon-16-qbt"></span>
+																		<span class="bizhong_en" line_id="market_qbt_qtum_new">QBT/QTUM</span></td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0140 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-5.21 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_bot_qtum_new" title="交易量：4,694.10 QTUM" role="row">
+																	<td class="no-wrap" data-trade="BOT_QTUM">
+																		<span class="icon-16 icon-16-bot"></span>
+																		<span class="bizhong_en" line_id="market_bot_qtum_new">BOT/QTUM</span></td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.0213 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-2.07 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_tsl_qtum_new" title="交易量：1,862.00 QTUM" role="row">
+																	<td class="no-wrap" data-trade="TSL_QTUM">
+																		<span class="icon-16 icon-16-tsl"></span>
+																		<span class="bizhong_en" line_id="market_tsl_qtum_new">TSL/QTUM</span></td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_up">0.003360 <i class="icon-arrow-up">↑</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-12.50 %</font>
+																	</td>
+																</tr>
+																<tr class="even" id="market_med_qtum_new" title="交易量：1,225.27 QTUM" role="row">
+																	<td class="no-wrap" data-trade="MED_QTUM">
+																		<span class="icon-16 icon-16-med"></span>
+																		<span class="bizhong_en" line_id="market_med_qtum_new">MED/QTUM</span></td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.000430 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="green" id="leftbarupdn">-4.44 %</font>
+																	</td>
+																</tr>
+																<tr class="odd" id="market_ink_qtum_new" title="交易量：436.36 QTUM" role="row">
+																	<td class="no-wrap" data-trade="INK_QTUM">
+																		<span class="icon-16 icon-16-ink"></span>
+																		<span class="bizhong_en" line_id="market_ink_qtum_new">INK/QTUM</span></td>
+																	<td class="no-wrap alignRight alignRight"><span class="rate_down">0.0170 <i class="icon-arrow-down">↓</i></span></td>
+																	<td class="no-wrap alignRight rzd alignRight">
+																		<font color="red" id="leftbarupdn">+21.64 %</font>
+																	</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+												</td>
+
+											</tr>
+										</tbody>
+									</table>
+
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+
+				<div class="left jy_middle">
+					<div class="jy_middle_one">
+						<div class="clearfix">
+							<div class="left bite">
+								<p>比特币 对 人民币</p>
+								BTC / CNY
+							</div>
+							<div class="right jy_middle_one_rt">
+								24H成交量
+								<p>1296.5827</p>
+							</div>
+							<div class="right jy_middle_one_rt">
+								最高价 / 最低价
+								<p>8155.00/7001.00</p>
+							</div>
+							<div class="right jy_middle_one_rt">
+								买一价 /卖一价
+								<p>7078.00/7080.00</p>
+							</div>
+							<div class="right jy_middle_one_rt">
+								最新价
+								<p><span class="color_red">7080.00</span></p>
+							</div>
+
+						</div>
+						<div class="biaoge">
+							<img src="images/jiaoyi_23.png" style="width: 100%;height: 208px;" />
+						</div>
+					</div>
+					<div class="jy_middle_two clearfix">
+						<div class="jy_middle_two_main left">
+							<div class="jy_middle_two_main_con">
+								<div class="jy_middle_two_main_con_tl clearfix">
+									<div class="left">
+										<img src="images/jiaoyi_27.png" /> 买
 									</div>
-	    	        				<!--<div class="jy_middle_jd right">
+									<span class="right">可用人民币：2050.00</span>
+								</div>
+								<div class="clearfix jy_middle_two_gp">
+									<div class="left jy_middle_two_gp_name">数量：</div>
+									<input type="text" class="right" />
+									<span class="danwei">ETH</span>
+								</div>
+								<div class="clearfix jy_middle_two_gp">
+									<div class="left jy_middle_two_gp_name clearfix">
+										<span class="left">买入比例：</span>
+									</div>
+									<div class="demo">
+										<input type="hidden" class="single-slider" value="23" />
+										<!--<button id="g1">获取值</button>-->
+									</div>
+								</div>
+								<div class="clearfix jy_middle_two_gp">
+									<div class="left jy_middle_two_gp_name">价格：</div>
+									<input type="text" class="right" />
+									<span class="danwei">BTC</span>
+								</div>
+								<div class="clearfix jy_middle_two_gp">
+									<div class="left jy_middle_two_gp_name">总计：</div>
+									<label type="text" class="right allprice" /></label>
+									<span class="danwei">BTC</span>
+								</div>
+								<div class="clearfix jy_middle_two_gp">
+									<div class="left jy_middle_two_gp_name">手续费：</div>
+									<label type="text" class="right allprice" /></label>
+									<span class="danwei">BTC</span>
+								</div>
+								<!--<div class="clearfix jy_middle_two_gp">
+	    	        				<div class="left jy_middle_two_gp_name">交易密码</div>
+	    	        				<input type="text" class="right" />
+	    	        			</div>-->
+								<div class="clearfix jy_middle_two_gp mai">
+									<div class="left btn_hui">高级设置</div>
+									<div class="right btn_green">买</div>
+								</div>
+							</div>
+						</div>
+						<div class="jy_middle_two_main left">
+							<div class="jy_middle_two_main_con" style="border: none;">
+								<div class="jy_middle_two_main_con_tl clearfix">
+									<div class="left">
+										<img src="images/jiaoyi_30.png" /> 卖
+									</div>
+									<span class="right">可用比特币：2050.00</span>
+								</div>
+								<div class="clearfix jy_middle_two_gp">
+									<div class="left jy_middle_two_gp_name">数量：</div>
+									<input type="text" class="right" />
+									<span class="danwei">ETH</span>
+								</div>
+								<div class="clearfix jy_middle_two_gp">
+									<div class="left jy_middle_two_gp_name clearfix">
+										<span class="left">卖出比例：</span>
+										<!--<span class="right baifenbi">22.33%</span>-->
+									</div>
+
+									<div class="demo">
+										<input type="hidden" class="range-slider" value="23" />
+										<!--<button id="g1">获取值</button>-->
+									</div>
+									<!--<div class="jy_middle_jd right">
 	    	        					<div class="jindu_main">
 	    	        						<div class="jindu_main_con" style="width: 23%;"></div>
 	    	        					</div>
 	    	        				</div>-->
-	    	        			</div>
-	    	        			<div class="clearfix jy_middle_two_gp">
-	    	        				<div class="left jy_middle_two_gp_name">价格：</div>
-	    	        				<input type="text" class="right" />
-	    	        				<span class="danwei">BTC</span>
-	    	        			</div>
-	    	        			<div class="clearfix jy_middle_two_gp">
-	    	        				<div class="left jy_middle_two_gp_name">总计：</div>
-	    	        				<input type="text" class="right" />
-	    	        				<span class="danwei">BTC</span>
-	    	        			</div>
-	    	        			<div class="clearfix jy_middle_two_gp">
-	    	        				<div class="left jy_middle_two_gp_name">手续费（0.2%）：</div>
-	    	        				<input type="text" class="right" />
-	    	        				<span class="danwei">BTC</span>
-	    	        			</div>
-	    	        			<div class="clearfix jy_middle_two_gp">
-	    	        				<div class="left jy_middle_two_gp_name">总计+手续费：</div>
-	    	        				<input type="text" class="right" />
-	    	        				<span class="danwei">BTC</span>
-	    	        			</div>
-	    	        			<!--<div class="clearfix jy_middle_two_gp">
+								</div>
+								<div class="clearfix jy_middle_two_gp">
+									<div class="left jy_middle_two_gp_name">价格：</div>
+									<input type="text" class="right" />
+									<span class="danwei">BTC</span>
+								</div>
+								<div class="clearfix jy_middle_two_gp">
+									<div class="left jy_middle_two_gp_name">总计：</div>
+									<label type="text" class="right allprice" /></label>
+									<span class="danwei">BTC</span>
+								</div>
+								<div class="clearfix jy_middle_two_gp">
+									<div class="left jy_middle_two_gp_name">手续费：</div>
+									<label type="text" class="right allprice" /></label>
+									<span class="danwei">BTC</span>
+								</div>
+								<!--<div class="clearfix jy_middle_two_gp">
 	    	        				<div class="left jy_middle_two_gp_name">交易密码</div>
 	    	        				<input type="text" class="right" />
 	    	        			</div>-->
-	    	        			<div class="clearfix jy_middle_two_gp mai">
-	    	        				<div  class="left btn_hui">高级设置</div>
-	    	        				<div class="right btn_green">买</div>
-	    	        			</div>
-	    	        		</div>
-	    	        	</div>
-	    	            <div class="jy_middle_two_main left">
-	    	        		<div class="jy_middle_two_main_con" style="border: none;">
-	    	        			<div class="jy_middle_two_main_con_tl clearfix">
-	    	        				<div class="left">
-	    	        					<img src="images/jiaoyi_30.png" />
-	    	        					卖
-	    	        				</div>
-	    	        				<span class="right">可用比特币：2050.00</span>
-	    	        			</div>
-	    	        			<div class="clearfix jy_middle_two_gp">
-	    	        				<div class="left jy_middle_two_gp_name">数量：</div>
-	    	        				<input type="text" class="right" />
-	    	        				<span class="danwei">ETH</span>
-	    	        			</div>
-	    	        			<div class="clearfix jy_middle_two_gp">
-	    	        				<div class="left jy_middle_two_gp_name clearfix">
-	    	        					<span class="left">卖出比例：</span>
-	    	        					<!--<span class="right baifenbi">22.33%</span>-->
-	    	        				</div>
-	    	        				
-	    	        				<div class="demo">
-											<input type="hidden" class="range-slider" value="23" />
-											<!--<button id="g1">获取值</button>-->
-									</div>
-	    	        				<!--<div class="jy_middle_jd right">
-	    	        					<div class="jindu_main">
-	    	        						<div class="jindu_main_con" style="width: 23%;"></div>
-	    	        					</div>
-	    	        				</div>-->
-	    	        			</div>
-	    	        			<div class="clearfix jy_middle_two_gp">
-	    	        				<div class="left jy_middle_two_gp_name">价格：</div>
-	    	        				<input type="text" class="right" />
-	    	        				<span class="danwei">BTC</span>
-	    	        			</div>
-	    	        			<div class="clearfix jy_middle_two_gp">
-	    	        				<div class="left jy_middle_two_gp_name">总计：</div>
-	    	        				<input type="text" class="right" />
-	    	        				<span class="danwei">BTC</span>
-	    	        			</div>
-	    	        			<div class="clearfix jy_middle_two_gp">
-	    	        				<div class="left jy_middle_two_gp_name">手续费（0.2%）：</div>
-	    	        				<input type="text" class="right" />
-	    	        				<span class="danwei">BTC</span>
-	    	        			</div>
-	    	        			<div class="clearfix jy_middle_two_gp">
-	    	        				<div class="left jy_middle_two_gp_name">总计+手续费：</div>
-	    	        				<input type="text" class="right" />
-	    	        				<span class="danwei">BTC</span>
-	    	        			</div>
-	    	        			<!--<div class="clearfix jy_middle_two_gp">
-	    	        				<div class="left jy_middle_two_gp_name">交易密码</div>
-	    	        				<input type="text" class="right" />
-	    	        			</div>-->
-	    	        			<div class="clearfix jy_middle_two_gp mai">
-	    	        				<div  class="left btn_hui">高级设置</div>
-	    	        				<div  class="right btn_red">卖</div>
-	    	        			</div>
-	    	        		</div>
-	    	        	</div>
-	    	        </div>
-	    	        <div class="jy_middle_three clearfix">
-	    	        	<div class="jy_middle_three_main left">
-	    	        		<div class="jy_middle_two_main_con_tl clearfix">
-	    	        				<div class="left">
-	    	        					<img src="images/jiaoyi_30.png" />
-	    	        					卖单
-	    	        				</div>
-	    	        		
-	    	        		</div>
-	    	        		<ul class="clearfix mai_ul mai_tl">
-	    	        			<li class="left mai_ul_time">
-	    	        				时间 
-	    	        			</li>
-	    	        			<li>
-	    	        				  单价                                 
-	    	        			</li>
-	    	        			<li>
-	    	        				数量   
-	    	        			</li>
-	    	        			<li>
-	    	        				交易金额 
-	    	        			</li>
-	    	        		</ul>
-	    	        		<div class="mai_ul_b">
-	    	        			<ul class="clearfix mai_ul">
-	    	        			<li class="left mai_ul_time">
-	    	        				03-22&nbsp;16:53:17
-	    	        			</li>
-	    	        			<li>
-	    	        				  <span class="color_red">  0.003113</span>                                 
-	    	        			</li>
-	    	        			<li>
-	    	        				 100  
-	    	        			</li>
-	    	        			<li>
-	    	        				20000.00
-	    	        			</li>
-	    	        		   </ul>
-	    	        		   <ul class="clearfix mai_ul">
-	    	        			<li class="left mai_ul_time">
-	    	        				03-22&nbsp;16:53:17
-	    	        			</li>
-	    	        			<li>
-	    	        				  <span class="color_red">  0.003113</span>                                 
-	    	        			</li>
-	    	        			<li>
-	    	        				 100  
-	    	        			</li>
-	    	        			<li>
-	    	        				20000.00
-	    	        			</li>
-	    	        		   </ul>
-	    	        		   <ul class="clearfix mai_ul">
-	    	        			<li class="left mai_ul_time">
-	    	        				03-22&nbsp;16:53:17
-	    	        			</li>
-	    	        			<li>
-	    	        				  <span class="color_red">  0.003113</span>                                 
-	    	        			</li>
-	    	        			<li>
-	    	        				 100  
-	    	        			</li>
-	    	        			<li>
-	    	        				20000.00
-	    	        			</li>
-	    	        		   </ul>
-	    	        		   <ul class="clearfix mai_ul">
-	    	        			<li class="left mai_ul_time">
-	    	        				03-22&nbsp;16:53:17
-	    	        			</li>
-	    	        			<li>
-	    	        				  <span class="color_red">  0.003113</span>                                 
-	    	        			</li>
-	    	        			<li>
-	    	        				 100  
-	    	        			</li>
-	    	        			<li>
-	    	        				20000.00
-	    	        			</li>
-	    	        		   </ul>
-	    	        		   <ul class="clearfix mai_ul">
-	    	        			<li class="left mai_ul_time">
-	    	        				03-22&nbsp;16:53:17
-	    	        			</li>
-	    	        			<li>
-	    	        				  <span class="color_red">  0.003113</span>                                 
-	    	        			</li>
-	    	        			<li>
-	    	        				 100  
-	    	        			</li>
-	    	        			<li>
-	    	        				20000.00
-	    	        			</li>
-	    	        		   </ul>
-	    	        		    <ul class="clearfix mai_ul">
-	    	        			<li class="left mai_ul_time">
-	    	        				03-22&nbsp;16:53:17
-	    	        			</li>
-	    	        			<li>
-	    	        				  <span class="color_red">  0.003113</span>                                 
-	    	        			</li>
-	    	        			<li>
-	    	        				 100  
-	    	        			</li>
-	    	        			<li>
-	    	        				20000.00
-	    	        			</li>
-	    	        		   </ul>
-	    	        		   <ul class="clearfix mai_ul">
-	    	        			<li class="left mai_ul_time">
-	    	        				03-22&nbsp;16:53:17
-	    	        			</li>
-	    	        			<li>
-	    	        				  <span class="color_red">  0.003113</span>                                 
-	    	        			</li>
-	    	        			<li>
-	    	        				 100  
-	    	        			</li>
-	    	        			<li>
-	    	        				20000.00
-	    	        			</li>
-	    	        		   </ul>
-	    	        		   <ul class="clearfix mai_ul">
-	    	        			<li class="left mai_ul_time">
-	    	        				03-22&nbsp;16:53:17
-	    	        			</li>
-	    	        			<li>
-	    	        				  <span class="color_red">  0.003113</span>                                 
-	    	        			</li>
-	    	        			<li>
-	    	        				 100  
-	    	        			</li>
-	    	        			<li>
-	    	        				20000.00
-	    	        			</li>
-	    	        		   </ul>
-	    	        		   <ul class="clearfix mai_ul">
-	    	        			<li class="left mai_ul_time">
-	    	        				03-22&nbsp;16:53:17
-	    	        			</li>
-	    	        			<li>
-	    	        				  <span class="color_red">  0.003113</span>                                 
-	    	        			</li>
-	    	        			<li>
-	    	        				 100  
-	    	        			</li>
-	    	        			<li>
-	    	        				20000.00
-	    	        			</li>
-	    	        		   </ul>
-	    	        		</div>
-	    	        	</div>
-	    	            <div class="jy_middle_three_main right">
-	    	        		<div class="jy_middle_two_main_con_tl clearfix">
-	    	        				<div class="left">
-	    	        					<img src="images/jiaoyi_27.png" />
-	    	        					买单
-	    	        				</div>
-	    	        		
-	    	        		</div>
-	    	        		<ul class="clearfix mai_ul buy_tl">
-	    	        			<li class="left mai_ul_time">
-	    	        				时间 
-	    	        			</li>
-	    	        			<li>
-	    	        				  单价                                 
-	    	        			</li>
-	    	        			<li>
-	    	        				数量   
-	    	        			</li>
-	    	        			<li>
-	    	        				交易金额 
-	    	        			</li>
-	    	        		</ul>
-	    	        		<div class="mai_ul_b">
-	    	        			<ul class="clearfix mai_ul">
-	    	        			<li class="left mai_ul_time">
-	    	        				03-22&nbsp;16:53:17
-	    	        			</li>
-	    	        			<li>
-	    	        				  <span class="color_red">  0.003113</span>                                 
-	    	        			</li>
-	    	        			<li>
-	    	        				 100  
-	    	        			</li>
-	    	        			<li>
-	    	        				20000.00
-	    	        			</li>
-	    	        		   </ul>
-	    	        		   <ul class="clearfix mai_ul">
-	    	        			<li class="left mai_ul_time">
-	    	        				03-22&nbsp;16:53:17
-	    	        			</li>
-	    	        			<li>
-	    	        				  <span class="color_red">  0.003113</span>                                 
-	    	        			</li>
-	    	        			<li>
-	    	        				 100  
-	    	        			</li>
-	    	        			<li>
-	    	        				20000.00
-	    	        			</li>
-	    	        		   </ul>
-	    	        		   <ul class="clearfix mai_ul">
-	    	        			<li class="left mai_ul_time">
-	    	        				03-22&nbsp;16:53:17
-	    	        			</li>
-	    	        			<li>
-	    	        				  <span class="color_red">  0.003113</span>                                 
-	    	        			</li>
-	    	        			<li>
-	    	        				 100  
-	    	        			</li>
-	    	        			<li>
-	    	        				20000.00
-	    	        			</li>
-	    	        		   </ul>
-	    	        		   <ul class="clearfix mai_ul">
-	    	        			<li class="left mai_ul_time">
-	    	        				03-22&nbsp;16:53:17
-	    	        			</li>
-	    	        			<li>
-	    	        				  <span class="color_red">  0.003113</span>                                 
-	    	        			</li>
-	    	        			<li>
-	    	        				 100  
-	    	        			</li>
-	    	        			<li>
-	    	        				20000.00
-	    	        			</li>
-	    	        		   </ul>
-	    	        		   <ul class="clearfix mai_ul">
-	    	        			<li class="left mai_ul_time">
-	    	        				03-22&nbsp;16:53:17
-	    	        			</li>
-	    	        			<li>
-	    	        				  <span class="color_red">  0.003113</span>                                 
-	    	        			</li>
-	    	        			<li>
-	    	        				 100  
-	    	        			</li>
-	    	        			<li>
-	    	        				20000.00
-	    	        			</li>
-	    	        		   </ul>
-	    	        		    <ul class="clearfix mai_ul">
-	    	        			<li class="left mai_ul_time">
-	    	        				03-22&nbsp;16:53:17
-	    	        			</li>
-	    	        			<li>
-	    	        				  <span class="color_red">  0.003113</span>                                 
-	    	        			</li>
-	    	        			<li>
-	    	        				 100  
-	    	        			</li>
-	    	        			<li>
-	    	        				20000.00
-	    	        			</li>
-	    	        		   </ul>
-	    	        		   <ul class="clearfix mai_ul">
-	    	        			<li class="left mai_ul_time">
-	    	        				03-22&nbsp;16:53:17
-	    	        			</li>
-	    	        			<li>
-	    	        				  <span class="color_red">  0.003113</span>                                 
-	    	        			</li>
-	    	        			<li>
-	    	        				 100  
-	    	        			</li>
-	    	        			<li>
-	    	        				20000.00
-	    	        			</li>
-	    	        		   </ul>
-	    	        		   <ul class="clearfix mai_ul">
-	    	        			<li class="left mai_ul_time">
-	    	        				03-22&nbsp;16:53:17
-	    	        			</li>
-	    	        			<li>
-	    	        				  <span class="color_red">  0.003113</span>                                 
-	    	        			</li>
-	    	        			<li>
-	    	        				 100  
-	    	        			</li>
-	    	        			<li>
-	    	        				20000.00
-	    	        			</li>
-	    	        		   </ul>
-	    	        		   <ul class="clearfix mai_ul">
-	    	        			<li class="left mai_ul_time">
-	    	        				03-22&nbsp;16:53:17
-	    	        			</li>
-	    	        			<li>
-	    	        				  <span class="color_red">  0.003113</span>                                 
-	    	        			</li>
-	    	        			<li>
-	    	        				 100  
-	    	        			</li>
-	    	        			<li>
-	    	        				20000.00
-	    	        			</li>
-	    	        		   </ul>
-	    	        		</div>
-	    	        	</div>
-	    	        </div>
-	    	    </div>
-	    	    
-<!--	    	    
-	    	   <div class="right jy_rt">
-	    	   	<div class="jy_rt_one">
-	    	   		<div class="jy_rt_one_tl clearfix">
-	    	   			<span class="left">委托历史</span>
-	    	   			<a href="#" class="right">MORE</a>
-	    	   		</div>
-	    	   		<div class="clearfix lishi lishi_tl">
-	    	   			<div class="lishi_time left">时间</div>
-	    	   			<div class="lishi_main left">买/卖</div>
-	    	   			<div class="lishi_price left">价格 (CNY)</div>
-	    	   			<div class="lishi_main left">数量</div>
-	    	   			<div class="lishi_main left">金额</div>
-	    	   			<div class="lishi_main left">&nbsp;</div>
-	    	   		</div>
-	    	   		<div class="lishi_b">
-	    	   			<div class="clearfix lishi">
-	    	   			<div class="lishi_time left">17:18:24</div>
-	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
-	    	   			<div class="lishi_price left">5.4512</div>
-	    	   			<div class="lishi_main left">5000</div>
-	    	   			<div class="lishi_main left"> 2512000</div>
-	    	   			<div class="lishi_main left">
-	    	   				<a href="#">撤销</a>
-	    	   			</div>
-	    	   		   </div>
-	    	   		    <div class="clearfix lishi">
-	    	   			<div class="lishi_time left">17:18:24</div>
-	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
-	    	   			<div class="lishi_price left">5.4512</div>
-	    	   			<div class="lishi_main left">5000</div>
-	    	   			<div class="lishi_main left"> 2512000</div>
-	    	   			<div class="lishi_main left">
-	    	   				成功
-	    	   			</div>
-	    	   		   </div>
-	    	   		</div>
-	    	   	    <div class="jy_rt_one_tl clearfix">
-	    	   			<span class="left">交易历史</span>
-	    	   			<a href="#" class="right">MORE</a>
-	    	   		</div>
-	    	        <div class="clearfix lishi lishi_tl jybiaoti">
-	    	   			<div class="lishi_time left">时间</div>
-	    	   			<div class="lishi_main left">买/卖</div>
-	    	   			<div class="lishi_price left">价格 (CNY)</div>
-	    	   			<div class="lishi_main left">数量</div>
-	    	   			<div class="lishi_main left">金额</div>
-	    	   		</div>
-	    	   	    <div class="lishi_b jybiaoti">
-	    	   			<div class="clearfix lishi">
-	    	   			<div class="lishi_time left">17:18:24</div>
-	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
-	    	   			<div class="lishi_price left">5.4512</div>
-	    	   			<div class="lishi_main left">5000</div>
-	    	   			<div class="lishi_main left"> 2512000</div>
-	    	   		
-	    	   		   </div>
-	    	   		    <div class="clearfix lishi">
-	    	   			<div class="lishi_time left">17:18:24</div>
-	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
-	    	   			<div class="lishi_price left">5.4512</div>
-	    	   			<div class="lishi_main left">5000</div>
-	    	   			<div class="lishi_main left"> 2512000</div>
-	    	   		
-	    	   		   </div>
-	    	   		   <div class="clearfix lishi">
-	    	   			<div class="lishi_time left">17:18:24</div>
-	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
-	    	   			<div class="lishi_price left">5.4512</div>
-	    	   			<div class="lishi_main left">5000</div>
-	    	   			<div class="lishi_main left"> 2512000</div>
-	    	   		
-	    	   		   </div>
-	    	   		   <div class="clearfix lishi">
-	    	   			<div class="lishi_time left">17:18:24</div>
-	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
-	    	   			<div class="lishi_price left">5.4512</div>
-	    	   			<div class="lishi_main left">5000</div>
-	    	   			<div class="lishi_main left"> 2512000</div>
-	    	   		
-	    	   		   </div>
-	    	   		   <div class="clearfix lishi">
-	    	   			<div class="lishi_time left">17:18:24</div>
-	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
-	    	   			<div class="lishi_price left">5.4512</div>
-	    	   			<div class="lishi_main left">5000</div>
-	    	   			<div class="lishi_main left"> 2512000</div>
-	    	   		
-	    	   		   </div>
-	    	   		   <div class="clearfix lishi">
-	    	   			<div class="lishi_time left">17:18:24</div>
-	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
-	    	   			<div class="lishi_price left">5.4512</div>
-	    	   			<div class="lishi_main left">5000</div>
-	    	   			<div class="lishi_main left"> 2512000</div>
-	    	   		
-	    	   		   </div>
-	    	   		   <div class="clearfix lishi">
-	    	   			<div class="lishi_time left">17:18:24</div>
-	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
-	    	   			<div class="lishi_price left">5.4512</div>
-	    	   			<div class="lishi_main left">5000</div>
-	    	   			<div class="lishi_main left"> 2512000</div>
-	    	   		
-	    	   		   </div>
-	    	   		   <div class="clearfix lishi">
-	    	   			<div class="lishi_time left">17:18:24</div>
-	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
-	    	   			<div class="lishi_price left">5.4512</div>
-	    	   			<div class="lishi_main left">5000</div>
-	    	   			<div class="lishi_main left"> 2512000</div>
-	    	   		
-	    	   		   </div>
-	    	   		   <div class="clearfix lishi">
-	    	   			<div class="lishi_time left">17:18:24</div>
-	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
-	    	   			<div class="lishi_price left">5.4512</div>
-	    	   			<div class="lishi_main left">5000</div>
-	    	   			<div class="lishi_main left"> 2512000</div>
-	    	   		
-	    	   		   </div>
-	    	   		   <div class="clearfix lishi">
-	    	   			<div class="lishi_time left">17:18:24</div>
-	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
-	    	   			<div class="lishi_price left">5.4512</div>
-	    	   			<div class="lishi_main left">5000</div>
-	    	   			<div class="lishi_main left"> 2512000</div>
-	    	   		
-	    	   		   </div>
-	    	   		   <div class="clearfix lishi">
-	    	   			<div class="lishi_time left">17:18:24</div>
-	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
-	    	   			<div class="lishi_price left">5.4512</div>
-	    	   			<div class="lishi_main left">5000</div>
-	    	   			<div class="lishi_main left"> 2512000</div>
-	    	   		
-	    	   		   </div>
-	    	   		   <div class="clearfix lishi">
-	    	   			<div class="lishi_time left">17:18:24</div>
-	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
-	    	   			<div class="lishi_price left">5.4512</div>
-	    	   			<div class="lishi_main left">5000</div>
-	    	   			<div class="lishi_main left"> 2512000</div>
-	    	   		
-	    	   		   </div>
-	    	   		   <div class="clearfix lishi">
-	    	   			<div class="lishi_time left">17:18:24</div>
-	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
-	    	   			<div class="lishi_price left">5.4512</div>
-	    	   			<div class="lishi_main left">5000</div>
-	    	   			<div class="lishi_main left"> 2512000</div>
-	    	   		
-	    	   		   </div>
-	    	   		   <div class="clearfix lishi">
-	    	   			<div class="lishi_time left">17:18:24</div>
-	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
-	    	   			<div class="lishi_price left">5.4512</div>
-	    	   			<div class="lishi_main left">5000</div>
-	    	   			<div class="lishi_main left"> 2512000</div>
-	    	   		
-	    	   		   </div>
-	    	   		   <div class="clearfix lishi">
-	    	   			<div class="lishi_time left">17:18:24</div>
-	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
-	    	   			<div class="lishi_price left">5.4512</div>
-	    	   			<div class="lishi_main left">5000</div>
-	    	   			<div class="lishi_main left"> 2512000</div>
-	    	   		
-	    	   		   </div>
-	    	   		    <div class="clearfix lishi">
-	    	   			<div class="lishi_time left">17:18:24</div>
-	    	   			<div class="lishi_main left"><span class="color_green"> 买</span></div>
-	    	   			<div class="lishi_price left">5.4512</div>
-	    	   			<div class="lishi_main left">5000</div>
-	    	   			<div class="lishi_main left"> 2512000</div>
-	    	   		
-	    	   		   </div>
-	    	   		</div>
-	    	   	</div>
-	    	     <div class="jy_rt_two">
-	    	     	<div class="jy_rt_one_tl clearfix">
-	    	   			<span class="left">
+								<div class="clearfix jy_middle_two_gp mai">
+									<div class="left btn_hui">高级设置</div>
+									<div class="right btn_red">卖</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="jy_middle_three clearfix">
+						<div class="jy_middle_three_main left">
+							<div class="jy_middle_two_main_con_tl clearfix">
+								<div class="left">
+									<img src="images/jiaoyi_30.png" /> 卖单
+								</div>
+
+							</div>
+							<ul class="clearfix mai_ul mai_tl">
+								<li class="left mai_ul_time">
+									时间
+								</li>
+								<li>
+									单价
+								</li>
+								<li>
+									数量
+								</li>
+								<li>
+									交易金额
+								</li>
+							</ul>
+							<div class="mai_ul_b">
+								<ul class="clearfix mai_ul">
+									<li class="left mai_ul_time">
+										03-22&nbsp;16:53:17
+									</li>
+									<li>
+										<span class="color_red">  0.003113</span>
+									</li>
+									<li>
+										100
+									</li>
+									<li>
+										20000.00
+									</li>
+								</ul>
+								<ul class="clearfix mai_ul">
+									<li class="left mai_ul_time">
+										03-22&nbsp;16:53:17
+									</li>
+									<li>
+										<span class="color_red">  0.003113</span>
+									</li>
+									<li>
+										100
+									</li>
+									<li>
+										20000.00
+									</li>
+								</ul>
+								<ul class="clearfix mai_ul">
+									<li class="left mai_ul_time">
+										03-22&nbsp;16:53:17
+									</li>
+									<li>
+										<span class="color_red">  0.003113</span>
+									</li>
+									<li>
+										100
+									</li>
+									<li>
+										20000.00
+									</li>
+								</ul>
+								<ul class="clearfix mai_ul">
+									<li class="left mai_ul_time">
+										03-22&nbsp;16:53:17
+									</li>
+									<li>
+										<span class="color_red">  0.003113</span>
+									</li>
+									<li>
+										100
+									</li>
+									<li>
+										20000.00
+									</li>
+								</ul>
+								<ul class="clearfix mai_ul">
+									<li class="left mai_ul_time">
+										03-22&nbsp;16:53:17
+									</li>
+									<li>
+										<span class="color_red">  0.003113</span>
+									</li>
+									<li>
+										100
+									</li>
+									<li>
+										20000.00
+									</li>
+								</ul>
+								<ul class="clearfix mai_ul">
+									<li class="left mai_ul_time">
+										03-22&nbsp;16:53:17
+									</li>
+									<li>
+										<span class="color_red">  0.003113</span>
+									</li>
+									<li>
+										100
+									</li>
+									<li>
+										20000.00
+									</li>
+								</ul>
+								<ul class="clearfix mai_ul">
+									<li class="left mai_ul_time">
+										03-22&nbsp;16:53:17
+									</li>
+									<li>
+										<span class="color_red">  0.003113</span>
+									</li>
+									<li>
+										100
+									</li>
+									<li>
+										20000.00
+									</li>
+								</ul>
+								<ul class="clearfix mai_ul">
+									<li class="left mai_ul_time">
+										03-22&nbsp;16:53:17
+									</li>
+									<li>
+										<span class="color_red">  0.003113</span>
+									</li>
+									<li>
+										100
+									</li>
+									<li>
+										20000.00
+									</li>
+								</ul>
+								<ul class="clearfix mai_ul">
+									<li class="left mai_ul_time">
+										03-22&nbsp;16:53:17
+									</li>
+									<li>
+										<span class="color_red">  0.003113</span>
+									</li>
+									<li>
+										100
+									</li>
+									<li>
+										20000.00
+									</li>
+								</ul>
+							</div>
+						</div>
+						<div class="jy_middle_three_main right">
+							<div class="jy_middle_two_main_con_tl clearfix">
+								<div class="left">
+									<img src="images/jiaoyi_27.png" /> 买单
+								</div>
+
+							</div>
+							<ul class="clearfix mai_ul buy_tl">
+								<li class="left mai_ul_time">
+									时间
+								</li>
+								<li>
+									单价
+								</li>
+								<li>
+									数量
+								</li>
+								<li>
+									交易金额
+								</li>
+							</ul>
+							<div class="mai_ul_b">
+								<ul class="clearfix mai_ul">
+									<li class="left mai_ul_time">
+										03-22&nbsp;16:53:17
+									</li>
+									<li>
+										<span class="color_red">  0.003113</span>
+									</li>
+									<li>
+										100
+									</li>
+									<li>
+										20000.00
+									</li>
+								</ul>
+								<ul class="clearfix mai_ul">
+									<li class="left mai_ul_time">
+										03-22&nbsp;16:53:17
+									</li>
+									<li>
+										<span class="color_red">  0.003113</span>
+									</li>
+									<li>
+										100
+									</li>
+									<li>
+										20000.00
+									</li>
+								</ul>
+								<ul class="clearfix mai_ul">
+									<li class="left mai_ul_time">
+										03-22&nbsp;16:53:17
+									</li>
+									<li>
+										<span class="color_red">  0.003113</span>
+									</li>
+									<li>
+										100
+									</li>
+									<li>
+										20000.00
+									</li>
+								</ul>
+								<ul class="clearfix mai_ul">
+									<li class="left mai_ul_time">
+										03-22&nbsp;16:53:17
+									</li>
+									<li>
+										<span class="color_red">  0.003113</span>
+									</li>
+									<li>
+										100
+									</li>
+									<li>
+										20000.00
+									</li>
+								</ul>
+								<ul class="clearfix mai_ul">
+									<li class="left mai_ul_time">
+										03-22&nbsp;16:53:17
+									</li>
+									<li>
+										<span class="color_red">  0.003113</span>
+									</li>
+									<li>
+										100
+									</li>
+									<li>
+										20000.00
+									</li>
+								</ul>
+								<ul class="clearfix mai_ul">
+									<li class="left mai_ul_time">
+										03-22&nbsp;16:53:17
+									</li>
+									<li>
+										<span class="color_red">  0.003113</span>
+									</li>
+									<li>
+										100
+									</li>
+									<li>
+										20000.00
+									</li>
+								</ul>
+								<ul class="clearfix mai_ul">
+									<li class="left mai_ul_time">
+										03-22&nbsp;16:53:17
+									</li>
+									<li>
+										<span class="color_red">  0.003113</span>
+									</li>
+									<li>
+										100
+									</li>
+									<li>
+										20000.00
+									</li>
+								</ul>
+								<ul class="clearfix mai_ul">
+									<li class="left mai_ul_time">
+										03-22&nbsp;16:53:17
+									</li>
+									<li>
+										<span class="color_red">  0.003113</span>
+									</li>
+									<li>
+										100
+									</li>
+									<li>
+										20000.00
+									</li>
+								</ul>
+								<ul class="clearfix mai_ul">
+									<li class="left mai_ul_time">
+										03-22&nbsp;16:53:17
+									</li>
+									<li>
+										<span class="color_red">  0.003113</span>
+									</li>
+									<li>
+										100
+									</li>
+									<li>
+										20000.00
+									</li>
+								</ul>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="jy_rt_one">
+						<div class="jy_rt_one_tl clearfix">
+							<span class="left">委托历史</span>
+							<a href="#" class="right">MORE</a>
+						</div>
+						<div class="clearfix lishi lishi_tl">
+							<div class="lishi_time left">时间</div>
+							<div class="lishi_main left">买/卖</div>
+							<div class="lishi_price left">价格 (CNY)</div>
+							<div class="lishi_main left">数量</div>
+							<div class="lishi_main left">金额</div>
+						</div>
+						<div class="lishi_b">
+							<div class="clearfix lishi">
+								<div class="lishi_time left">17:18:24</div>
+								<div class="lishi_main left"><span class="color_green"> 买</span></div>
+								<div class="lishi_price left">5.4512</div>
+								<div class="lishi_main left">5000</div>
+								<div class="lishi_main left"> 2512000</div>
+								<div class="lishi_main left">
+									<a href="#">撤销</a>
+								</div>
+							</div>
+							<div class="clearfix lishi">
+								<div class="lishi_time left">17:18:24</div>
+								<div class="lishi_main left"><span class="color_green"> 买</span></div>
+								<div class="lishi_price left">5.4512</div>
+								<div class="lishi_main left">5000</div>
+								<div class="lishi_main left"> 2512000</div>
+								<div class="lishi_main left">
+									成功
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!--右边-->
+				<div class="right jy_rt">
+					<div class="jy_rt_one">
+						<div class="jy_rt_one_tl clearfix">
+							<span class="left">交易历史</span>
+							<a href="#" class="right">MORE</a>
+						</div>
+						<div class="clearfix lishi lishi_tl jybiaoti">
+							<div class="lishi_time left">时间</div>
+							<div class="lishi_main left">买/卖</div>
+							<div class="lishi_price left">价格 (CNY)</div>
+							<div class="lishi_main left">数量</div>
+							<div class="lishi_main left">金额</div>
+						</div>
+						<div class="lishi_b jybiaoti1">
+							<div class="clearfix lishi">
+								<div class="lishi_time left">17:18:24</div>
+								<div class="lishi_main left"><span class="color_green"> 买</span></div>
+								<div class="lishi_price left">5.4512</div>
+								<div class="lishi_main left">5000</div>
+								<div class="lishi_main left"> 2512000</div>
+
+							</div>
+							<div class="clearfix lishi">
+								<div class="lishi_time left">17:18:24</div>
+								<div class="lishi_main left"><span class="color_green"> 买</span></div>
+								<div class="lishi_price left">5.4512</div>
+								<div class="lishi_main left">5000</div>
+								<div class="lishi_main left"> 2512000</div>
+
+							</div>
+							<div class="clearfix lishi">
+								<div class="lishi_time left">17:18:24</div>
+								<div class="lishi_main left"><span class="color_green"> 买</span></div>
+								<div class="lishi_price left">5.4512</div>
+								<div class="lishi_main left">5000</div>
+								<div class="lishi_main left"> 2512000</div>
+
+							</div>
+							<div class="clearfix lishi">
+								<div class="lishi_time left">17:18:24</div>
+								<div class="lishi_main left"><span class="color_green"> 买</span></div>
+								<div class="lishi_price left">5.4512</div>
+								<div class="lishi_main left">5000</div>
+								<div class="lishi_main left"> 2512000</div>
+
+							</div>
+							<div class="clearfix lishi">
+								<div class="lishi_time left">17:18:24</div>
+								<div class="lishi_main left"><span class="color_green"> 买</span></div>
+								<div class="lishi_price left">5.4512</div>
+								<div class="lishi_main left">5000</div>
+								<div class="lishi_main left"> 2512000</div>
+
+							</div>
+							<div class="clearfix lishi">
+								<div class="lishi_time left">17:18:24</div>
+								<div class="lishi_main left"><span class="color_green"> 买</span></div>
+								<div class="lishi_price left">5.4512</div>
+								<div class="lishi_main left">5000</div>
+								<div class="lishi_main left"> 2512000</div>
+
+							</div>
+							<div class="clearfix lishi">
+								<div class="lishi_time left">17:18:24</div>
+								<div class="lishi_main left"><span class="color_green"> 买</span></div>
+								<div class="lishi_price left">5.4512</div>
+								<div class="lishi_main left">5000</div>
+								<div class="lishi_main left"> 2512000</div>
+
+							</div>
+							<div class="clearfix lishi">
+								<div class="lishi_time left">17:18:24</div>
+								<div class="lishi_main left"><span class="color_green"> 买</span></div>
+								<div class="lishi_price left">5.4512</div>
+								<div class="lishi_main left">5000</div>
+								<div class="lishi_main left"> 2512000</div>
+
+							</div>
+							<div class="clearfix lishi">
+								<div class="lishi_time left">17:18:24</div>
+								<div class="lishi_main left"><span class="color_green"> 买</span></div>
+								<div class="lishi_price left">5.4512</div>
+								<div class="lishi_main left">5000</div>
+								<div class="lishi_main left"> 2512000</div>
+
+							</div>
+							<div class="clearfix lishi">
+								<div class="lishi_time left">17:18:24</div>
+								<div class="lishi_main left"><span class="color_green"> 买</span></div>
+								<div class="lishi_price left">5.4512</div>
+								<div class="lishi_main left">5000</div>
+								<div class="lishi_main left"> 2512000</div>
+
+							</div>
+							<div class="clearfix lishi">
+								<div class="lishi_time left">17:18:24</div>
+								<div class="lishi_main left"><span class="color_green"> 买</span></div>
+								<div class="lishi_price left">5.4512</div>
+								<div class="lishi_main left">5000</div>
+								<div class="lishi_main left"> 2512000</div>
+
+							</div>
+							<div class="clearfix lishi">
+								<div class="lishi_time left">17:18:24</div>
+								<div class="lishi_main left"><span class="color_green"> 买</span></div>
+								<div class="lishi_price left">5.4512</div>
+								<div class="lishi_main left">5000</div>
+								<div class="lishi_main left"> 2512000</div>
+
+							</div>
+							<div class="clearfix lishi">
+								<div class="lishi_time left">17:18:24</div>
+								<div class="lishi_main left"><span class="color_green"> 买</span></div>
+								<div class="lishi_price left">5.4512</div>
+								<div class="lishi_main left">5000</div>
+								<div class="lishi_main left"> 2512000</div>
+
+							</div>
+							<div class="clearfix lishi">
+								<div class="lishi_time left">17:18:24</div>
+								<div class="lishi_main left"><span class="color_green"> 买</span></div>
+								<div class="lishi_price left">5.4512</div>
+								<div class="lishi_main left">5000</div>
+								<div class="lishi_main left"> 2512000</div>
+
+							</div>
+							<div class="clearfix lishi">
+								<div class="lishi_time left">17:18:24</div>
+								<div class="lishi_main left"><span class="color_green"> 买</span></div>
+								<div class="lishi_price left">5.4512</div>
+								<div class="lishi_main left">5000</div>
+								<div class="lishi_main left"> 2512000</div>
+
+							</div>
+							<div class="clearfix lishi">
+								<div class="lishi_time left">17:18:24</div>
+								<div class="lishi_main left"><span class="color_green"> 买</span></div>
+								<div class="lishi_price left">5.4512</div>
+								<div class="lishi_main left">5000</div>
+								<div class="lishi_main left"> 2512000</div>
+
+							</div>
+						</div>
+					</div>
+					<div class="jy_rt_two">
+						<div class="jy_rt_one_tl clearfix">
+							<span class="left">
 	    	   				<img src="images/jiaoyi_34.png" />
 	    	   				币种消息
 	    	   			</span>
-	    	   			<a href="#" class="right">MORE</a>
-	    	   		</div>
-	    	   		<ul class="jy_rt_two_ul">
-	    	   			<li>
-	    	   				<a href="#">币种消息币种消息币种消息</a>
-	    	   			</li>
-	    	   			<li>
-	    	   				<a href="#">币种消息币种消息币种消息</a>
-	    	   			</li>
-	    	   			<li>
-	    	   				<a href="#">币种消息币种消息币种消息</a>
-	    	   			</li>
-	    	   			<li>
-	    	   				<a href="#">币种消息币种消息币种消息</a>
-	    	   			</li>
-	    	   			<li>
-	    	   				<a href="#">币种消息币种消息币种消息</a>
-	    	   			</li>
-	    	   		</ul>
-	    	     </div>
-	    	   </div>-->
-	    	
-	    	
-	    	
-	    	
-	    	
-	    	
-	    	</div>
-	    </div>
-	   
-	    
-	    <script type="text/javascript" src="js/main.js" ></script>
-	    <!--新-->
-	    <script src="js/jquery.range.js" type="text/javascript" charset="utf-8"></script>
-	    <script>
-	    	$('.single-slider').jRange({
+							<a href="#" class="right">MORE</a>
+						</div>
+						<ul class="jy_rt_two_ul">
+							<li>
+								<a href="#">币种消息币种消息币种消息</a>
+							</li>
+							<li>
+								<a href="#">币种消息币种消息币种消息</a>
+							</li>
+							<li>
+								<a href="#">币种消息币种消息币种消息</a>
+							</li>
+							<li>
+								<a href="#">币种消息币种消息币种消息</a>
+							</li>
+							<li>
+								<a href="#">币种消息币种消息币种消息</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+		<script type="text/javascript" src="js/main.js"></script>
+		<!--新-->
+		<script src="js/jquery.range.js" type="text/javascript" charset="utf-8"></script>
+		<script>
+			var a = ($('.jy_middle_two_gp').width() * 0.58)
+			$('.single-slider').jRange({
 				from: 0,
 				to: 100,
 				step: 1,
-				scale: [0,25,50,75,100],
+				scale: [0, 25, 50, 75, 100],
 				format: '%s',
-				width: 169,
+				width: a,
 				showLabels: true,
 				showScale: true
 			});
@@ -1373,12 +2338,13 @@
 				from: 0,
 				to: 100,
 				step: 1,
-				scale: [0,25,50,75,100],
+				scale: [0, 25, 50, 75, 100],
 				format: '%s',
-				width: 169,
+				width: a,
 				showLabels: true,
 				showScale: true
 			});
-	    </script>
+		</script>
 	</body>
+
 </html>
