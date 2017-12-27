@@ -29,7 +29,7 @@ thead,thead tr{height:40px}
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover{color:white!important;border:1px solid #111111;background-color:#585858;background:-webkit-gradient(linear,left top,left bottom,color-stop(0%,#585858),color-stop(100%,#111111));background:-webkit-linear-gradient(top,#585858 0%,#111111 100%);background:-moz-linear-gradient(top,#585858 0%,#111111 100%);background:-ms-linear-gradient(top,#585858 0%,#111111 100%);background:-o-linear-gradient(top,#585858 0%,#111111 100%);background:linear-gradient(to bottom,#585858 0%,#111111 100%)}
 .dataTables_wrapper .dataTables_filter input{margin-left:2px; font-size: 14px;padding:8px 5px 9px 30px;font-family:Microsoft YaHei,Tahoma,Arial,sans-serif;background:#fff url(/images/marketsearch-icon.svg) no-repeat 8px center;background:#fff url(/images/marketsearch-icon.png) no-repeat 8px center \9;border:1px solid #ddd}
 #marketlist_filter label{display:block}
-.leftbar {width: 20%;
+.leftbar {width: 23%;
     height: 1156px;
     overflow: hidden;
     padding: 20px 0 4px 0;
@@ -484,7 +484,7 @@ button[disabled],button[disabled]:hover,.sub-btn[disabled],.sub-btn[disabled]:ho
 @media screen and (max-width: 1280px) {
     .leftbar .icon-16,#currVol{ display: none}
     #tradelist table tr td:first-child{ width: 36%}
-    .leftbar{ width: 24%}
+    .leftbar{ width: 23%}
     .main_content{ width: 76%}
     div .trade-main{ width: 65%; padding-right: 10px}
     div .buy-sell-order{ width: 34%}
