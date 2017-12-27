@@ -521,3 +521,15 @@ button[disabled],button[disabled]:hover,.sub-btn[disabled],.sub-btn[disabled]:ho
 .tip-con li{ margin-bottom: 5px; list-style: disc}
 .tip-list{ padding-left: 15px;margin: 20px 0;}
 div .tip-con .sub-btn{ width: 100%;display: inline-block;text-align: center;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
+.all_jy{
+	overflow: hidden;
+}
+.jy_left{
+	float: left;
+	width: 50%;
+}
+.jy_right{
+	float: left;
+	width: 49%;
+	margin-left: 1%;
+}

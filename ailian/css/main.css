@@ -256,13 +256,13 @@
 .diezhang{width:25%;height: 30px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;}
 .jy_lf_two_b_con{text-align: center;line-height: 30px;height: 690px;overflow-y: auto;}
 .jy_lf_two_b_li:nth-child(even){background: #f8f7f7;}
-.jy_middle{width: 52%;margin: 0 1%;}
+.jy_middle{width: 76%;margin-left:1%;}
 .jy_middle_one{background: #ffffff;border: 1px solid #dddcdc;border-radius: 3px;padding: 6px 16px;margin-bottom: 5px;}
 .bite{background: url(../images/jiaoyi_12.png) no-repeat left top;padding-left: 45px;color: #999999;height: 45px;}
 .bite p{color: #333333;font-size: 16px;}
 .jy_middle_one_rt{color: #999999;margin-left: 2%;}
 .jy_middle_one_rt p{color: #333333;font-size: 16px;}
-.biaoge{height: 330px;}
+.biaoge{height: 400px;}
 .jy_middle_two{background: #ffffff;border: 1px solid #dddcdc;border-radius: 3px;margin-bottom: 5px;}
 .jy_middle_two_main{width: 50%;color: #333232;font-size: 14px;}
 .jy_middle_two_main_con{border-right: 1px solid #e1e1e1;padding: 0px 10px;height: 245px;}
@@ -289,7 +289,7 @@
 .mai_ul_b{height: 222px;overflow-y: auto;}
 .mai_ul_b .mai_ul:nth-child(2n){background: #f8f7f7;}
 .buy_tl{background: #d8f4dd;}
-.jy_rt{width: 23%;}
+.jy_rt{width:100%;}
 .jy_rt_one{line-height: 30px;background: #ffffff;border: 1px solid #dddcdc;border-bottom: none;margin-bottom: 5px;color: #333333;font-size: 14px;}
 .jy_rt_one_tl{border-bottom: 1px solid #dddcdc;padding: 0px 10px;}
 .lishi{
@@ -318,8 +318,7 @@
 .zx_table tr:last-child td{border-bottom: none;}
 .zx_table tr:hover td{background: rgba(255,255,255,0.2);}
 .jybiaoti1{
-	       max-height: 927px;
-    height: 927px;
+    height: 302px;
 }
 .jy_middle_two_gp .allprice {
     padding: 0px 3%;
